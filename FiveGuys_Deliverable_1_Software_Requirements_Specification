@@ -70,6 +70,8 @@ Version
     that have special significance. For example, state whether priorities  for higher-level requirements are assumed to be 
     inherited by detailed requirements, or whether every requirement statement is to have its own priority.>
     
+    In this document high priority requirements will be bolded.
+    
 1.3 Intended Audience and Reading Suggestions
     <Describe the different types of reader that the document is intended for, such as developers, project managers, marketing
     staff, users, testers, and documentation writers. Describe what the rest of this SRS contains and how it is organized. Suggest
@@ -136,6 +138,9 @@ Version
     <Describe the environment in which the software will operate, including the hardware platform, operating system and versions, and any other software 
     components or applications with which it must peacefully coexist.>
     
+      The application will be ran on the android 11 platform. The application does not need any other applications to run and has no applications 
+     needed to fully function.
+    
 2.5 Design and Implementation Constraints
     <Describe any items or issues that will limit the options available to the developers. These might include: corporate or regulatory policies; hardware 
     limitations (timing requirements, memory requirements); interfaces to other applications; specific technologies, tools, and databases to be used; parallel 
@@ -145,6 +150,11 @@ Version
 2.6 User Documentation
     <List the user documentation components (such as user manuals, on-line help, and tutorials) that will be delivered along with the software. Identify any 
     known user documentation delivery formats or standards.>
+    
+      The application will include a rule page where it covers the rules of the game. Every user will also have the option to complete a tutorial on how to 
+     play quarto. This will delivered to the user inside of the application. There will be a button to click, much like a settings button that will bring you to a 
+     different screen that explain the rules and how to play. 
+    
 
 2.7 Assumptions and Dependencies
     <List any assumed factors (as opposed to known facts) that could affect the requirements stated in the SRS. These could include third-party or commercial 
