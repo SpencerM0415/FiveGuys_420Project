@@ -81,6 +81,12 @@ Product Scope
     Relate the software to corporate goals or business strategies. If a separate vision and scope document is available, refer to it 
     rather than duplicating its contents here.>
     
+    Our Quarto software has the main goal of emulating all aspects of the board game Quarto, including being able to rotate a board,
+    choose pieces for your opponent, place pieces on the board, and recognize victory conditions. Other important features will include
+    tutorials for new players and beginner ai to allow new players to learn the rules of the game. To keep our business able to produce
+    high quality games, we will be offering microtransactions to allow players to support our game if they enjoy it, including reskins
+    and recolors of pieces, the board, and backgrounds.
+    
 References
     <List any other documents or Web addresses to which this SRS refers. These may include user interface style guides, contracts, 
     standards, system requirements specifications, use case documents, or a vision and scope document. Provide enough information so 
