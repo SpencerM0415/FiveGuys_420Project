@@ -58,6 +58,12 @@ Purpose
     <Identify the product whose software requirements are specified in this document, including the revision or release number. 
   Describe the scope of the product that is covered by this SRS, particularly if this SRS describes only part of the system 
   or a single subsystem.>
+  
+    The product that this SRS describes is an application that allows the user to play the game Quarto. This application will have 
+    many features that will teach players about the game and how to play the game. This application does not currently have a release 
+    number and is currently still in development. This application is being made for people who want to enjoy a board game with friends 
+    while also maybe learning something about the game they previously did not know. Also a goal of this application is to help teach 
+    new players how to play the game.
 
 Document Conventions
     <Describe any standards or typographical conventions that were followed when writing this SRS, such as fonts or highlighting
