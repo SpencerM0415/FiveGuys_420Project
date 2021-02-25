@@ -76,6 +76,14 @@ Version
     a sequence for reading the document, beginning with the overview sections and proceeding through the sections that are most 
     pertinent to each reader type.>
     
+      The intended audience for this document is for anyone who is working with this application such as developers, project managers, 
+    users, testers, documentation writers, etc. This document contains the reason why this application is being developed and how. It also 
+    goes into detail of what the future plans are for this application and what will be added. It will discuss what is needed to use the 
+    application and what the application needs in order to function properly for the user. It is recommended that you check the table of contents
+    to find specifically what you are looking for. The best way to read this document is from start to finish. The reason for this is that by 
+    reading it all you get a full understanding of the goals and objectives of the application. If you are searching for something specific the table
+    of contents mentioned earlier would be beneficial or just by reading the section names would give you an idea of what is being discussed in that section. 
+    
 1.4 Product Scope
     <Provide a short description of the software being specified and its purpose, including relevant benefits, objectives, and goals.
     Relate the software to corporate goals or business strategies. If a separate vision and scope document is available, refer to it 
