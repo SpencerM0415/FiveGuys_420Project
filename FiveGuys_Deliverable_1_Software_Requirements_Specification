@@ -134,11 +134,11 @@ Version
     of each user class. Certain requirements may pertain only to certain user classes. Distinguish the most important user classes for this product from 
     those who are less important to satisfy.>
     
-    There will be several user classes for this application that will be split into several subclasses based on expected desired functionality. 
-    An example would be a beginner vs a competitive user. One difference between function of user classes would be beginner users being hinted to use the 
-    tutorial vs experienced players not recieving this indicator. There will also be classes to distinguish between casual and competitive non-beginner users,
-    as well as a class for users who utilize our microtransactions. An example of functionality specific to a paying user would be providing bundled deals on
-    reskins and recolors. While there will be additional prompts and indicators based on user class, there will be no limited functions between users.
+    There will be several user classes for this application that will be split based on expected desired functionality. An example would be a beginner vs 
+    a competitive user. One difference between function of these user classes would be beginner users being hinted to use the tutorial vs experienced 
+    players not recieving this indicator. There will also be classes to distinguish between casual and competitive non-beginner users, as well as a class 
+    for users who utilize our microtransactions. An example of functionality specific to a paying user would be providing bundled deals on reskins and recolors. 
+    While there will be additional prompts and indicators based on user class, there will be no limited functions between users.
     
     To sum, possible user subclasses:
     - Beginner user - Prompted to use tutorial, matched with other beginners or beginner ai until they improve.
