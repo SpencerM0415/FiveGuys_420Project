@@ -177,6 +177,8 @@ Version
     components that you plan to use, issues around the development or operating environment, or constraints. The project could be affected if these assumptions 
     are incorrect, are not shared, or change. Also identify any dependencies the project has on external factors, such as software components that you intend to 
     reuse from another project, unless they are already documented elsewhere (for example, in the vision and scope document or the project plan).>
+    
+    The development will be done in an android IDE, however there will be no other dependencies on any external systems.
 
 
 -----------------------------------------------------------------------------------------------------------------------------------------
