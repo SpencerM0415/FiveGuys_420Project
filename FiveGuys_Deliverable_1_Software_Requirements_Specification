@@ -147,6 +147,10 @@ Version
     operations; language requirements; communications protocols; security considerations; design conventions or programming standards (for example, if the 
     customer’s organization will be responsible for maintaining the delivered software).>
     
+    The software will be running in a mobile environment, so low hardware requirements and fitting onto a small screen are important. Language translation
+    options will expand the userbase but also requires minimal text so as to lower translation difficulty. As the software is being developed for android systems,
+    the software must be developed inside an android IDE.
+    
 2.6 User Documentation
     <List the user documentation components (such as user manuals, on-line help, and tutorials) that will be delivered along with the software. Identify any 
     known user documentation delivery formats or standards.>
@@ -187,6 +191,7 @@ Version
     Settings screen:
       - SFX volume slider
       - Music volume slider
+      - Language selection
       
     Game screen:
       - Centrally positioned isometric board
