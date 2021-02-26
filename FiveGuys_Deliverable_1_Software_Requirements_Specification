@@ -317,6 +317,12 @@ Version
 Appendix A: Glossary
     <Define all the terms necessary to properly interpret the SRS, including acronyms and abbreviations. You may wish to build a separate 
     glossary that spans multiple projects or the entire organization, and just include terms specific to a single project in each SRS.>
+    
+    Quarto: A board game with 16 unique pieces that are either large or small, dark or light, hollow or solid, and round or square. Players
+            take turns selecting pieces for their opponent to place on a 4x4 grid. The goal of the game is to connect 4 of a kind in a row 
+            by forcing your opponent to give you a winning piece.
+            
+    Isometric: A 2.5d art style that creates an illusion of 3d by looking at the scene from a diagonal view.
 
 Appendix B: Analysis Models
     <Optionally, include any pertinent analysis models, such as data flow diagrams, class diagrams, state-transition diagrams, or 
