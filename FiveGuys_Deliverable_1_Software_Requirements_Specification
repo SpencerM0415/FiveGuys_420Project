@@ -215,6 +215,13 @@ Table of Contents
     system. This may include the supported device types, the nature of the data and control interactions between the software and the 
     hardware, and communication protocols to be used.>
     
+    Supported types:
+      - Desktop/PC (Android IDE)
+    The game will display the graphics on the screen as required. The system will also have buttons/controls/sliders/dropdowns for game control and settings management. Given
+    that the game is developed primarily for desktop, keyboard and mouse are required hardware. Each press or click will be communicated to the app. Also required is a screen 
+    for display of the games graphics.
+      
+    
 3.3 Software Interfaces
     <Describe the connections between this product and other specific software components (name and version), including databases, operating 
     systems, tools, libraries, and integrated commercial components. Identify the data items or messages coming into the system and going 
@@ -223,12 +230,20 @@ Table of Contents
     mechanism must be implemented in a specific way (for example, use of a global data area in a multitasking operating system), specify this 
     as an implementation constraint.>
     
+    The only software communication needed for the system would be the installation/download phase at the beginning. The download for the app will be sourced from the
+    home page for the system be that the android app store, or online website. The system itself does not need a connection to other sites/libraries etc. and will be designed
+    to be played regardless of connection to internet. However, in the case of an update/ bug fix after download, a communication between the system and its
+    source (app store/website) will be necessary. The download should come in the form of an installer available for download from the home page/source.
+    
+    
 3.4 Communications Interfaces
     <Describe the requirements associated with any communications functions required by this product, including e-mail, web browser, network 
     server communications protocols, electronic forms, and so on. Define any pertinent message formatting. Identify any communication standards 
     that will be used, such as FTP or HTTP. Specify any communication security or encryption issues, data transfer rates, and 
     synchronization mechanisms.>
     
+    This system will not require any communication between the system and the user.
+    Any optional communications are TBD as the development process moves forward
 
 -----------------------------------------------------------------------------------------------------------------------------------------
 
