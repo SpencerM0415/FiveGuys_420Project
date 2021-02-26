@@ -134,6 +134,11 @@ Version
     of each user class. Certain requirements may pertain only to certain user classes. Distinguish the most important user classes for this product from 
     those who are less important to satisfy.>
     
+    The user classes for this application would be either a begineer or someone who knows the game already. Someone who already knows the game would not have to 
+    complete a tutorial if they didnt want to. Because this application only has one user class which is the player of the board game. The application gives the 
+    player the option whether they want to be taught how to play or if they would want to jump in. The user class can also be broken into sub classes. For example 
+    a user might play more often then some users but noting would differ between users.
+    
 2.4 Operating Environment
     <Describe the environment in which the software will operate, including the hardware platform, operating system and versions, and any other software 
     components or applications with which it must peacefully coexist.>
