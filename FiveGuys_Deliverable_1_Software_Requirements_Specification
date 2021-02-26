@@ -134,10 +134,17 @@ Version
     of each user class. Certain requirements may pertain only to certain user classes. Distinguish the most important user classes for this product from 
     those who are less important to satisfy.>
     
-    The user classes for this application would be either a begineer or someone who knows the game already. Someone who already knows the game would not have to 
-    complete a tutorial if they didnt want to. Because this application only has one user class which is the player of the board game. The application gives the 
-    player the option whether they want to be taught how to play or if they would want to jump in. The user class can also be broken into sub classes. For example 
-    a user might play more often then some users but noting would differ between users.
+    There will be several user classes for this application that will be split based on expected desired functionality. An example would be a beginner vs 
+    a competitive user. One difference between function of these user classes would be beginner users being hinted to use the tutorial vs experienced 
+    players not recieving this indicator. There will also be classes to distinguish between casual and competitive non-beginner users, as well as a class 
+    for users who utilize our microtransactions. An example of functionality specific to a paying user would be providing bundled deals on reskins and recolors. 
+    While there will be additional prompts and indicators based on user class, there will be no limited functions between users.
+    
+    To sum, possible user subclasses:
+    - Beginner user - Prompted to use tutorial, matched with other beginners or beginner ai until they improve.
+    - Casual user - Prompted to play against beginner ai, matched with beginner ai or other casual players.
+    - Competitive user - Prompted to play the ranked game mode, matched with casual players or ranked players based on mode.
+    - Paying user - Offered a bundled deal once per month, matched with casual players or ranked players based on mode.
     
 2.4 Operating Environment
     <Describe the environment in which the software will operate, including the hardware platform, operating system and versions, and any other software 
