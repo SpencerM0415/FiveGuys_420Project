@@ -269,10 +269,14 @@ Version
     systems. Make such requirements as specific as possible. You may need to state performance requirements for individual functional 
     requirements or features.>
     
+    The system shall not utilize more than 4GB of ram during normal runtime
+    
 5.2 Safety Requirements
     <Specify those requirements that are concerned with possible loss, damage, or harm that could result from the use of the product. 
     Define any safeguards or actions that must be taken, as well as actions that must be prevented. Refer to any external policies or
     regulations that state safety issues that affect the product’s design or use. Define any safety certifications that must be satisfied.>
+    
+    The system shall abide by COPPA and will only allow account creation by users 13 years of age or older.
     
 5.3 Security Requirements
     <Specify any requirements regarding security or privacy issues surrounding use of the product or protection of the data used or created 
@@ -285,9 +289,18 @@ Version
     robustness, testability, and usability. Write these to be specific, quantitative, and verifiable when possible. At the least, clarify the 
     relative preferences for various attributes, such as ease of use over ease of learning.>
     
+    The system shall not crash for the first hour of gametime, 90% of the time
+    
+    The system shall relay a players move to their opponent within 30 seconds, 99% of the time.
+    
+    The system shall reach the game screen from launch within 1 minute, 99% of the time.
+    
+    
 5.5 Business Rules
     <List any operating principles about the product, such as which individuals or roles can perform which functions under specific circumstances. 
     These are not functional requirements in themselves, but they may imply certain functional requirements to enforce the rules.>
+    
+    
 
 
 -----------------------------------------------------------------------------------------------------------------------------------------
