@@ -19,31 +19,23 @@ App description:
 2) colored or oppositely colored pieces 
 3) square or circular pieces 
 4) hollow-topped or solid-topped pieces 
-  This app will virtually render the following qualities, as well as allow two players to follow the basic  rules of the game. The two players will take turns placing pieces 
-until one of them places a piece such  that it completes a row of four pieces with a common quality. This could take the form of a row of four  pieces all being tall, 
-hollow-topped, or square, etc. Like Quarto in real life, the Quarto app has a set of pieces for both players such that both players  may use any of the possible pieces with no
-limitations on qualities for a particular player. In addition,  the players cannot select their own pieces to place, it is their opponent who chooses which piece the  player may
-place. 
-  The Quarto app will allow certain variations in rules to suit the player, one of the most common  being the winning set of qualities of pieces being in a two-by-two square 
-instead of a line of four. The app will also be user friendly. What we mean by this is that it will be very straightforward on how to play and what the user can and cannot do. 
-Something like a hint system may be implemented or even a page on the app that will give the user a chance to get familiarized with the game. Quarto doesn't have many apps based
-on the board game. There are some basic online websites where you are able to play against an AI or another player. A lot of these applications are very basic and do not have a
-very good UI system. I've noticed that some are not very straightforward with telling you how to play. One thing that will be important is informing the player what the rules 
-are and how to play the game instead of just assuming the player has that knowledge beforehand. When looking at similar apps they are all very basic and they don't offer much 
-to the user. There are not many apps for this game because it's still a very small board game in terms of user base. When searching for Quarto on the app store you find one app
-that states it is no longer usable. Our application will have the polish that these other applications lack. They do not seem to be user friendly and offer very little in terms
-of information about the game. One thing that one of the online applications allows is for you to change the difficulty of the AI player you are facing. This feature is great 
-for users who do not have much experience with the game. Because there are not many apps for this board game. There are not a lot of things to look at but from the few that 
-exist they seem very basic and not well laid out. They are also very outdated when it comes to the layout. One of the biggest improvements that can make our application better 
-then others is having a clean and easy to understand user interface. When I go to these apps and the user interface is not visually appealing it puts me off of the app which is
-what we don't want to have happen when a user sits down to use our application. Some of these applications that could be similar to ours include apps like chess.com’s chess app 
-or maybe even the game pigeon checkers app. Or even the app board games of two. For example the chess app is probably the most well put together. It has many resources for the 
-user to use from tutorials to puzzles to even the rule book. This is something that we want to include in our app. We  want the player to have many resources they can use to 
-help them learn and become better at the game so they will keep returning to play again. When we look at how the game pigeon app for checkers works there are a lot of flaws 
-with it. It is very repetitive and offers really nothing to the user except to play the game of checkers with a friend of imessage. It's very easy to get bored while using this
-application. We want to avoid this by giving the player multiple things to do or have incentives to keep them playing. The last app we will look at is a board game variety app 
-that's focused on two player games to play with your friend. While this app has variety it lacks the polish of something like Chess because they have many games but they didn't
-really put the effort into a good user interface. The app seems old  in a way like it was designed and then never touched again. We want users to have an easy time navigating our
-application. What we can learn from these other applications will help us design an app that users will be able to enjoy. These apps tell us what works and what does not work
-and how we should go about designing these features for our own app.
+  This app will virtually render the following qualities, as well as allow two players to follow the basic rules of the game. The two players will take turns placing pieces until one of them places a piece such  that it completes a row of four pieces with a common quality. This could take the form of a row of four  pieces all being tall, hollow-topped, or square, etc. Like Quarto in real life, the Quarto app has a set of pieces for both players such that both players may use any of the possible pieces with no limitations on qualities for a particular player. In addition, the players cannot select their own pieces to place, it is their opponent who chooses which piece the player may place. 
+  The Quarto app will allow certain variations in rules to suit the player, one of the most common  being the winning set of qualities of pieces being in a two-by-two square instead of a line of four. The app will also be user friendly: it will be very straightforward on how to play and what the user can and cannot do. A hint system and/or a tutorial feature will be made available to the user.
+  Quarto doesn't have many apps based on the board game. There are some basic online websites where you are able to play against an AI or another player. A lot of these applications are very basic and do not have a very good UI system. Some are not very straightforward with telling you how to play. One way our app will stand out is informing the player what the rules are and how to play the game instead of just assuming the player has that knowledge beforehand. 
+  When looking at similar apps they are all very basic and they don't offer much to the user. There are not many apps for this game because it's still a very small board game in terms of user base. When searching for Quarto on the app store will find apps that state they are no longer usable. Another way our app will stand out is with bi-yearly updates to support new operating systems or releases. 
+  Another way our application will stand out is it will have the polish that these other applications lack. They do not seem to be user friendly and offer very little in terms of information about the game. The few other Quarto applications that exist seem very basic and not well laid out. Their layouts are also very outdated. When a user goes to these apps and the user interface is not visually appealing they will think of the product as lower quality. One of the biggest improvements that can make our application better then others is having a clean and easy to understand user interface. 
+  An app that will be similar in style to the Quarto app is Chess.com. Their clear, simple, and easy to navigate interface will be a great source of inspiration for the Quarto app, as we want users to have an easy time navigating our application.
+  A similarity between our app and others will be the ability to change the difficulty of the AI player you are facing. This feature is great for users who do not have much experience with the game. Some of these applications that could be similar to ours include apps like Chess.com’s chess app or in some ways the game pigeon checkers app. For example the chess app is the best put together. It has many resources for the user to use from tutorials to puzzles to even the rule book. These features are examples for us to use in the Quarto application. We want the player to have many resources they can use to help them learn and become better at the game so they will keep returning to play again.  
+  When we look at how the game pigeon app for checkers works there are a lot of flaws with it. It is very repetitive and offers really nothing to the user except to play the game of checkers with a friend of imessage. It's very easy to get bored while using this application. Our application will differ in that we will offer several game modes for the user to choose from.
+  The last app we will look at is a board game variety app that's focused on two player games to play with your friend. While this app has variety it lacks the polish of something like Chess.com because they have many games but they didn't really put the effort into a good user interface. The app seems outdated, as if designed and then never touched again. What we can learn from these other applications will help us design an app that users will be able to enjoy. These apps tell us what works and what does not work and how we should go about designing these features for our own app.
+  
+  To summarize, our app will stand out against the others because of:
+  - Tutorials that teach new players how to play the game
+  - Bi-yearly updates to ensure our app never feels outdated
+  - Polished, simple, and easy to navigate UI
+  - Multiple game modes
+  And areas that we will pull inspiration from other apps will be:
+  - Adjustable ai difficulty
+  - Clean simple UI interface
+  - Matchmaking
 
