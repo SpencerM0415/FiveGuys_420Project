@@ -7,57 +7,96 @@ Peter Cluckey
 Austin Langley
 
 As someone who likes bright and colorful games, I would like to be able to choose the style/color of my pieces and board, so that my board never gets boring.
+    Functionality: Piece color options
+                   Board color options
+                   Background color options
+                   Piece reskin options
+                   Board reskin options
+                   Background color options
 
 As someone who plays board games offline, I would like to be able to play 2 players on the same device, so I can play with my relatives who don’t have their own tablet.
+    Functionality: Local multiplayer
 
 As someone who doesn’t have friends that play, I would like to have a matchmaking system, so I can play with people around the world.
+    Functionality: Online matchmaking
 
 As a colorblind user, I would like to have different color/indication options, so that I will be able to play with my handicap.
+    Functionality: Colorblind mode OR free recolor option
 
 As a visually impaired user, I would like to have a read-aloud option, so that I can be sure I’m picking the right piece.
+    Functionality: Read-aloud option
 
 As a motor impaired user, I would like a click and place option, so that I am not locked out of playing by dragging mechanics I am unable to use.
+    Functionality: CLick and place control style
 
 As someone with tremors, I would like a click and hold option, so that when I shake I do not misclick pieces or places.
+    Functionality: Hold for x seconds control setting
 
 As someone who mostly plays online, I would like a chat option, so that I can make new friends while playing the game.
+    Functionality: Chat
 
 As a parent, I would like the option to disable chat, so that my child does not get into dangerous situations online.
+    Functionality: Chat disable option
 
 As a slow player, I would like an option to save my current game, so that I can think about my turn overnight.
+    Functionality: Save feature
 
 As a pro player, I would like an analysis system to measure the effectiveness of my turns, so that I can improve and expand on my abilities.
+    Functionality: Move analysis
 
-As a variety loving user, I would like additional games to play on the app, so that I don’t get bored of just playing quarto.
+As a variety loving user, I would like multiple gameplay modes, so that I won't get bored of just one.
+    Functionality: Challenge mode
+                   Casual mode
+                   Competitive mode
+                   Vs AI mode
 
 As a competitive user, I would like a ranked option, so that I can play against opponents of similar skill.
+    Functionality: Competitive mode
 
-As a potential new user, I would like some sort of built in tutorial, so that I can learn the game without having to look up a guide.
+As a potential new user, I would like a built in tutorial, so that I can learn the game without having to look up a guide.
+    Functionality: Tutorial
 
 As someone who wants to support the dev team, I would like an option to buy an ad free version, so I can be rewarded for my support.
+    Functionality: Cash Shop
 
 As someone who uses a lot of social media, I would like an option to post screenshots of my games, so that I can share interesting moments with all my friends.
+    Functionality: Photo posting capability
+                   Screenshot functionality
 
 As a new player, I would like an option to practice against basic ai, so that I can slowly increase my skill.
+    Functionality: Basic AI
 
-As a puzzle lover, I would like a challenge option where the player has to decide the best move, so that I can test my knowledge of the game.
+As a puzzle lover, I would like an option where the player has a preset board and has to decide the best move, so that I can test my knowledge of the game.
+    Functionality: Challenge mode
 
 As a multitasking user, I would like a notification system that tells me when a move is made, so that I know when it is my turn to go.
+    Functionality: Notification system
+                   Audio indicators
 
 As someone with low system specs, I would like a low-power/low-graphics mode, so that I can play the game without constant freezing.
+    Functionality: Low power mode
+                   Low graphics setting
 
 As a speedrunner, I would like a timed option, so that I can ensure my games are always lightning fast.
+    Functionality: Timed mode
 
 As a completionist, I would like achievements in the game, so I can try to hunt down every trophy-worthy scenario.
+    Functionality: Achievements
 
 As a new player, I would like to see a hint system, so as I play I learn new tips about how to play.
+    Functionality: Hint system
+                   Turn analysis
 
 As a player who loves stats, I would like to see a stat page, so that I can see how many wins and losses I have.
-
-As a variety loving player, I would like to see more mode options, so that I can play more than just basic Quarto.
+    Functionality: Statistics tracking
+                   Statistics page
 
 As a parent, I would like to have a chat filter option, so that my child does not need to read curse words online.
+    Functionality: Language filter
 
 As a competitive player, I would like to be able to send my opponents emotes, so they know how badly they are being beaten.
+    Functionality: Emote communication
 
 As a competitive player, I would like a live coaching option, so that professionals can help me improve my play.
+    Functionality: Remote board viewer option
+                   Live streaming option
