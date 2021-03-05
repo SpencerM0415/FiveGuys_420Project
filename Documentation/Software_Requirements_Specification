@@ -205,12 +205,13 @@ Table of Contents
           Tapping board rotate buttons will rotate the board 90 degrees east or west
           Placing a winning piece will announce victory
     4.1.3 Functional requirements
-          REQ-1: The system shall allow for board rotations of 90 degrees, with 4 viewpoints total
-          REQ-2: The system shall allow selection of a piece in the side trays
-          REQ-3: The system shall allow a player to offer their selected piece to their opponent on their turn
-          REQ-4: The system shall allow a player to place their selected piece on a game square
-          REQ-5: The system shall reduce piece opacity when ghost mode is selected
-          REQ-6: The system shall announce victory when 4 matching pieces are placed in a row
+          REQ-1: The system shall allow the user to rotate the board 90 degrees left
+          REQ-2: The system shall allow the user to rotate the board 90 degrees right
+          REQ-3: The system shall allow selection of a piece in the side trays
+          REQ-4: The system shall allow a player to offer their selected piece to their opponent on their turn
+          REQ-5: The system shall allow a player to place their selected piece on a game square
+          REQ-6: The system shall reduce piece opacity when ghost mode is selected
+          REQ-7: The system shall announce victory when 4 matching pieces are placed in a row
 
 4.2 Main menu
     4.2.1 Description and priority
