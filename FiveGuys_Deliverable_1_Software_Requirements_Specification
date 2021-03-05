@@ -260,9 +260,10 @@ Table of Contents
           Moving the volume slider will adjust volume accordingly
           Tapping the language button shall rotate through available languages
     4.5.3 Functional Requirements
-          REQ-1: The system shall allow for volume to be raised and lowered
-          REQ-2: The system shall allow for volume to be muted
-          REQ-3: The system shall allow for cycling between available languages
+          REQ-1: The system shall allow for volume to be raised
+          REQ-2: The system shall allow for volume to be lowered
+          REQ-3: The system shall allow for volume to be muted
+          REQ-4: The system shall allow for cycling between available languages
 
 4.6 Shop menu
     4.6.1 Description and priority
@@ -295,7 +296,10 @@ Table of Contents
           This feature will automatically match the player with an opponent without user input. Then the feature will redirect both
           players to the quarto board.
     4.8.3 Functional Requirements
-          REQ-1: The system shall matchmake the user against another casual user
+          REQ-1: The system shall put the player into a group of other casual players
+          REQ-2: The system shall find an appropriate pair of players
+              REQ-2.1: The system shall first look for players with a low ping
+              REQ-2.2: The system shall second look for players with similar winrates
           
 4.9 Competitive mode
     4.9.1 Description and priority
@@ -305,8 +309,10 @@ Table of Contents
           This feature will automatically match the player with an opponent without user input. Then the feature will redirect
           both players to the quarto board.
     4.9.3 Functional Requirements
-          REQ-1: The system shall matchmake the user against another competitive user
-          REQ-2: The system shall adjust a hidden matchmaking rating based on the performance in the previous match
+          REQ-2: The system shall find an appropriate pair of players
+              REQ-2.1: The system shall first look for players with similar competitive ratings
+              REQ-2.2: The system shall second look for players with a low ping
+          REQ-2: The system shall adjust a competitive rating based on the performance in the previous match
           
 
 -----------------------------------------------------------------------------------------------------------------------------------------
@@ -323,7 +329,9 @@ Table of Contents
     
 5.3 Security Requirements
 
-    N/A
+    The system shall hide the user's IP address from malicious users
+    
+    The system shall hide the user's payment information from malicious users
     
 5.4 Software Quality Attributes
     
