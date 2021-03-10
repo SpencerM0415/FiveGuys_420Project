@@ -1,0 +1,20 @@
+Title: GameMode Selection
+Description: This use case describes how to select a game mode and start a game.
+System under design: Quarto app(Main Menu).
+Primary Actor:  Quarto App user.
+Goal: Select a game mode and start the game.
+Precomdition: None.
+Following use cases: 
+Success Post-Condition: Gamemode that user selected starts.
+
+Actor:                                    System Processes:
+1. User opens Quarto app.                 2. System displays main menu screen.
+3. User selects Play button.              4. System displays Gamemode selection menu
+5. User Selects one of three options      6. System registers which button was hit and starts game.
+  a) Competitive.
+  b) Vs AI.
+  c) Casual.
+7. User starts playing selected game mode.
+
+
+
