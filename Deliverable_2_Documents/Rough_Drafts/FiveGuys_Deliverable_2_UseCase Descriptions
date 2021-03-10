@@ -9,12 +9,20 @@ Success Post-Condition: Gamemode that user selected starts.
 
 Actor:                                    System Processes:
 1. User opens Quarto app.                 2. System displays main menu screen.
-3. User selects Play button.              4. System displays Gamemode selection menu
-5. User Selects one of three options      6. System registers which button was hit and starts game.
-  a) Competitive.
-  b) Vs AI.
-  c) Casual.
-7. User starts playing selected game mode.
+3. User selects Play button.              4. System displays Gamemode selection menu that displays 3 options
+                                              a) Competitive.
+                                              b) Vs AI.
+                                              c) Casual.
+5. User Selects Vs AI                     6. System registers the user hitting "VS AI" and starts a game.
+
+7. User starts playing Quarto against AI.
+
+Alternate Paths: 
+After system displays gamemode options starting at 5 and ending at 6:
+5.1.User selects "Competitive".      6.1.System starts Competitive game.
+
+5.2.User selects "Casual".           6.2.System starts casual game.
+  
 
 
 
