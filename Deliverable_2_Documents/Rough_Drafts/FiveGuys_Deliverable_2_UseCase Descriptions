@@ -23,6 +23,47 @@ After system displays gamemode options starting at 5 and ending at 6:
 
 5.2.User selects "Casual".           6.2.System starts casual game.
   
+  
+  
+  
+  
+Title: Choose language
+Description: Use case describes steps required to change language
+System Under Design: Quarto App(Settings)
+Primary actor: User
+Goal: Change the language of the app.
+Precondition: None
+Following use cases: None
+Success Post-Condition: Langauge is changed in the app.
+
+Actor:                                        System Processes:
+1.User opens quarto app.                      2. System displays main menu.
+3. User selects "settings" option.            4.System display settings page.
+4. User selects "Language & Region" option    5. System displays "Language & Region" page.
+6. User selects "Choose Language" option.     7. System displays all available languages for the app.
+8. User selects "Spanish".                    9. System changes all language in the app to spanish.
+10. User can now use the app in spanish.
 
 
+Title: User Places piece
+Description: Use case describes how a user can place a piece.
+System Under design: Quarto app(in game)
+Primary Actor: User
+Goal: Place a piece in a valid spot. 
+Pre-condition: Start a game of Quarto from mode selection menu.
+Following use cases: Victory condition
+Success Post-Condition: User places valid quarto piece on board.
 
+Actor:                                          System Processes:
+                                                1. System asks user what piece their opponent must place. 
+2. User Selects piece from given options        3. System relays iformation to opponent
+                                                4. System shows new board after opponents move.
+                                                5. System displays what piece User must place.
+6. User places the preselected piece on board.  7. System updates board after user moves piece.
+                                                8. System asks user which piece his opponent mustr move.
+9. User selects piece for opponent.
+
+Alternate Paths:
+At step 6. The user could place a winning piece.
+6. User places pre selected piece.              7. System displays Victory screen
+8.User celebrates the win.
