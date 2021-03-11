@@ -4,7 +4,7 @@ System under design: Quarto app(Main Menu).
 Primary Actor:  Quarto App user.
 Goal: Select a game mode and start the game.
 Precomdition: None.
-Following use cases: Competitive, VS AI, Casual
+Following use cases: Competitive, VS AI
 Success Post-Condition: Gamemode that user selected starts.
 
 Actor:                                    System Processes:
