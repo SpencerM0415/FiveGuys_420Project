@@ -1,4 +1,4 @@
-Title: GameMode Selection
+Title: Choose gamemode
 Description: This use case describes how to select a game mode and start a game.
 System under design: Quarto app(Main Menu).
 Primary Actor:  Quarto App user.
@@ -42,7 +42,7 @@ Actor:                                        System Processes:
 10. User can now use the app in spanish.
 --------------------------------------------------------------------------------------------------------------------------  
 
-Title: User Places piece
+Title:  Place piece
 Description: Use case describes how a user can place a piece.
 System Under design: Quarto app(in game)
 Primary Actor: User
@@ -107,7 +107,7 @@ Actor:                                                System Processes:
 7. User can now look at competitve leaderboard.
 --------------------------------------------------------------------------------------------------------------------------  
 
-Title: Offer piece for opponents turn.
+Title: Offer piece
 Description: Use case describes how to offer a piece for the opponents turn.
 System Under Design: Quarto app(ingame)
 Primary Actor:User
