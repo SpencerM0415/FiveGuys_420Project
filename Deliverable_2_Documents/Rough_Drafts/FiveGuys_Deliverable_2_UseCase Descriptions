@@ -37,8 +37,8 @@ Following use cases: None
 Success Post-Condition: Langauge is changed in the app.
 
 Actor:                                        System Processes:
-1.User opens quarto app.                      2. System displays main menu.
-3. User selects "settings" option.            4.System display settings page.
+1. User opens quarto app.                     2. System displays main menu.
+3. User selects "settings" option.            4. System display settings page.
 4. User selects "Language & Region" option    5. System displays "Language & Region" page.
 6. User selects "Choose Language" option.     7. System displays all available languages for the app.
 8. User selects "Spanish".                    9. System changes all language in the app to spanish.
@@ -66,4 +66,50 @@ Actor:                                          System Processes:
 Alternate Paths:
 At step 6. The user could place a winning piece.
 6. User places pre selected piece.              7. System displays Victory screen
-8.User celebrates the win.
+8. User celebrates the win.
+
+
+Title: Use Shop
+Descriptions: Use case describes how a a user can use the shop.
+System Under Design: Quarto app(shop)
+Primary Actor: User
+Goal: Have user enter shop.
+Pre-Condition: None
+Following use cases: Account creation, Verify Age
+Success Post-Condition: User is able to access shop page.
+
+Actor:                                          System Processes:
+1. User opens Quarto app.                        2. System displays main menu.
+3. User selects shop option.                     4. User opens shop page.
+5. User is able purchase items in shop.
+
+
+Alternate Paths:
+At step step 4. User may not have created account.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
