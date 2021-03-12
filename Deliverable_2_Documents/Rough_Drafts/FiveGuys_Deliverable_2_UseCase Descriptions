@@ -107,6 +107,21 @@ Actor:                                                System Processes:
 7. User can now look at competitve leaderboard.
 --------------------------------------------------------------------------------------------------------------------------  
 
+Title: Offer piece for opponents turn.
+Description: Use case describes how to offer a piece for the opponents turn.
+System Under Design: Quarto app(ingame)
+Primary Actor:User
+Goal: Offer piece to opponent
+Pre-Condition: start a game of quarto.
+Following cases: none
+Success Post-Condition: Opponent is given the piece they must place.
+
+Actor:                                              System Processes:
+1. User selects piece from side bar                 2. System displays "Would you like to offer this piece?"
+3. User selects yes on pop up window.               4. System relays what piece user has choosen to opponent.
+5. User sees opponent place piece selected by user.
+-------------------------------------------------------------------------------------------------------------------------- 
+
 
 
 
