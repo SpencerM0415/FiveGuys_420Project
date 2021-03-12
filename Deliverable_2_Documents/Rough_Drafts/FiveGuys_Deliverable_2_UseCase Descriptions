@@ -22,11 +22,8 @@ After system displays gamemode options starting at 5 and ending at 6:
 5.1.User selects "Competitive".      6.1.System starts Competitive game.
 
 5.2.User selects "Casual".           6.2.System starts casual game.
-  
-  
-  
-  
-  
+--------------------------------------------------------------------------------------------------------------------------  
+ 
 Title: Choose language
 Description: Use case describes steps required to change language
 System Under Design: Quarto App(Settings)
@@ -43,7 +40,7 @@ Actor:                                        System Processes:
 6. User selects "Choose Language" option.     7. System displays all available languages for the app.
 8. User selects "Spanish".                    9. System changes all language in the app to spanish.
 10. User can now use the app in spanish.
-
+--------------------------------------------------------------------------------------------------------------------------  
 
 Title: User Places piece
 Description: Use case describes how a user can place a piece.
@@ -67,10 +64,10 @@ Alternate Paths:
 At step 6. The user could place a winning piece.
 6. User places pre selected piece.              7. System displays Victory screen
 8. User celebrates the win.
-
+--------------------------------------------------------------------------------------------------------------------------  
 
 Title: Use Shop
-Descriptions: Use case describes how a a user can use the shop.
+Description: Use case describes how a a user can use the shop.
 System Under Design: Quarto app(shop)
 Primary Actor: User
 Goal: Have user enter shop.
@@ -92,7 +89,23 @@ Actor:                                          System Processes:
 7. User enters information required by system.  8. System Asks for user to verify age.
 8. User vefiys age.                             9. System allows user to access shop.
 10. User is able to access shop.
+--------------------------------------------------------------------------------------------------------------------------  
 
+Title: Check competitive leaderboard
+Description: Use case describes how user wil check competitive leaderboard
+System Under Design: Quarto app
+Primary Actor: User
+Goal: Check Competitive leaderboard
+Pre-Condition: None.
+Following cases: None
+Success Post-Condition: User is able to see their rating.
+
+Actor:                                                System Processes:
+1. User selects profile option in main menu.          2. System displays profile page.
+3. User selects Stats option.                         4. System displays users stats page.
+5.User selects Competitive leaderboard option         6. System displays competitive leaderboard, aswell as users rank.
+7. User can now look at competitve leaderboard.
+--------------------------------------------------------------------------------------------------------------------------  
 
 
 
