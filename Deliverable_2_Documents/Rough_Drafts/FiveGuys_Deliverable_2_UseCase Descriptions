@@ -86,6 +86,12 @@ Actor:                                          System Processes:
 
 Alternate Paths:
 At step step 4. User may not have created account.
+Actor:                                          System Processes:
+                                                4. System asks user to sign in or create an account.
+5. User selects create account                  6. System displays create account page.
+7. User enters information required by system.  8. System Asks for user to verify age.
+8. User vefiys age.                             9. System allows user to access shop.
+10. User is able to access shop.
 
 
 
