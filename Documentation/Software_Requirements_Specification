@@ -224,6 +224,7 @@ Table of Contents
           REQ-2: The system shall include a Tutorial button on the main menu screen that will bring the user to the tutorial mode
           REQ-3: The system shall include a Settings button that will bring the user to the settings screen
           REQ-4: The system shall include a Shop button that will bring the user to the shop screen
+          REQ-5:The system shall include a profile button that will bring you to their profile page
           
 4.3 Mode selection menu
     4.3.1 Description and priority
@@ -314,6 +315,15 @@ Table of Contents
               REQ-2.1: The system shall first look for players with similar competitive ratings
               REQ-2.2: The system shall second look for players with a low ping
           REQ-2: The system shall adjust a competitive rating based on the performance in the previous match
+          
+4.95 Profile Page
+  4.95.1. Description and priority
+          Check stats on profile page aswell as ranked leaderboards.
+  4.95.2 Stimulus/Response Sequences
+          This feature allows players to check on their stats and where they stand compared to other players.
+  4.95.3 Functional requirements
+          REQ-1 System will allow user to see stats from all games played on app.
+          REQ-2 System will allow user to see competitve leaderboards. 
           
 
 -----------------------------------------------------------------------------------------------------------------------------------------
