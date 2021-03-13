@@ -204,7 +204,7 @@ Pre-condition: user has already created an account
 Following cases: none
 Success Post-condition: Skins of board pieces changed.
 
-Actor:                                        System Proccesses:
+Actor:                                        System Processes:
 1. User opens quarto app                      2. System displays main menu
 3. User selects shop option                   4. System displays shop menu
 5. User selects "purchased skins"             6. System displays all user purchased skins.
@@ -218,7 +218,7 @@ Actor:                                        System Proccesses:
  Primary Actor: User
  Goal: Start a competitive game
  Pre-Condition: Have created an account.
- Following cases: Choose Gamemode, Create Account
+ Following cases: Choose Gamemode, Create Account, Match Score with Opponent, Update Score
  Success Post-Condition: User starts a game of competitive quarto
  
  Actor:                                      System Processes:
@@ -236,7 +236,55 @@ Actor:                                        System Proccesses:
 9. User plays competitive game of quarto
 -------------------------------------------------------------------------------------------------------------------------- 
 
+Title: Create Account
+Description:Use case describes how to create an account
+System Under design: Quarto App(Account)
+Primary actor: User
+Goal: Create an account for user
+Pre-Conidtion: none
+Following cases: Verify Age
+Success Post-Conditions: Account created for user
 
+Actor:                                                      System Processes:
+1. User opens quarto app                                    2. System displays main menu screen
+3. User selects settings option                             4. System displays settings page
+5. User selects account option                              6. System asks user to enter information
+7. User enters required information and selects "submit"    8. System asks user to verify age
+9. User verifys age                                         10. System accepts verification and creates account for user
+11. User is now logged in to their account
+-------------------------------------------------------------------------------------------------------------------------- 
+
+Title: Choose AI mode
+Description: Use case describes how to select AI mode
+System Under Design: Quarto app(Online Game)
+Primary actor: User
+Goal: Start AI game
+Pre-Condition: none
+Following cases: Choose gamemode
+Success Post-Conditon: User starts game of quarto against AI
+
+Actor:                                                  System Process 
+1. User opens quarto app                                2. System Displays main menu
+2. User selects "Play Game"                             3. System displays gamemode selection screen
+4. User Selects AI mode option                          5. System asks user to select difficulty level
+6. User selects difficulty level from given options     7. System starts AI game
+8. User plays game of quarto against AI
+-------------------------------------------------------------------------------------------------------------------------- 
+
+Title: Choose Casual mode
+Description: Use case describes how to select Casual mode
+System Under Design: Quarto App(Online Game)
+Primary actor: User
+Goal: Start Casual Game
+Pre-Condition: none
+Following cases: Choose gamemode
+Success Post-Condition: User starts casual game of quarto
+
+Actor:                                              System Processes:
+1. User opens quarto app                            2. System Displays main menu
+2. User selects "Play Game"                         3. System displays gamemode selection screen
+4. User selects "Casual"                            5. System starts a casual game
+6. User plays casual game of quarto
 
 
 
