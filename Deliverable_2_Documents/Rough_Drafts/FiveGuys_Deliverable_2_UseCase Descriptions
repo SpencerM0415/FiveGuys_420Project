@@ -180,6 +180,17 @@ Actor:                                      System Processes:
 7. User now has the board orientated the way they want.
 -------------------------------------------------------------------------------------------------------------------------- 
 
+Title: Open Ghost Mode
+Description: use case describes how to open ghost mode
+System Under Design: Quarto App(Standard game procedure)
+Primary Actor: User
+Goal: Activate ghost mode
+Pre-Condition: none
+Following cases: none
+Success Post-Condition: User succesfully has game in ghost mode(lower opacity pieces)
+
+Actor:                                    System Processes:
+
 
 
                                                 
