@@ -4,7 +4,7 @@ System under design: Quarto app(Main Menu).
 Primary Actor:  Quarto App user.
 Goal: Select a game mode and start the game.
 Precomdition: None.
-Following use cases: Competitive, VS AI
+Following use cases: Choose Competitive Mode, Choose AI Mode, Choose Casual Mode
 Success Post-Condition: Gamemode that user selected starts.
 
 Actor:                                    System Processes:
@@ -48,25 +48,24 @@ System Under design: Quarto app(in game)
 Primary Actor: User
 Goal: Place a piece in a valid spot. 
 Pre-condition: Start a game of Quarto from mode selection menu.
-Following use cases: Victory condition
+Following use cases: Claim Victory 
 Success Post-Condition: User places valid quarto piece on board.
 
-Actor:                                          System Processes:
-                                                1. System asks user what piece their opponent must place. 
-2. User Selects piece from given options        3. System relays iformation to opponent
-                                                4. System shows new board after opponents move.
-                                                5. System displays what piece User must place.
-6. User places the preselected piece on board.  7. System updates board after user moves piece.
-                                                8. System asks user which piece his opponent mustr move.
-9. User selects piece for opponent.
+Actor:                                          System Processes:                                            
+1. User Selects piece from given options        2. System relays iformation to opponent
+                                                3. System shows new board after opponents move.
+                                                4. System displays what piece User must place.
+5. User places the preselected piece on board.  6. System updates board after user moves piece.
+                                                7. System asks user which piece his opponent mustr move.
+8. User selects piece for opponent.
 
 Alternate Paths:
 At step 6. The user could place a winning piece.
-6. User places pre selected piece.              7. System displays Victory screen
-8. User celebrates the win.
+5. User places pre selected piece.              6. System displays Victory screen
+7. User celebrates the win.
 --------------------------------------------------------------------------------------------------------------------------  
 
-Title: Use Shop
+Title: Open Shop
 Description: Use case describes how a a user can use the shop.
 System Under Design: Quarto app(shop)
 Primary Actor: User
@@ -91,7 +90,7 @@ Actor:                                          System Processes:
 10. User is able to access shop.
 --------------------------------------------------------------------------------------------------------------------------  
 
-Title: Check competitive leaderboard
+Title: Open leaderboard
 Description: Use case describes how user wil check competitive leaderboard
 System Under Design: Quarto app
 Primary Actor: User
@@ -128,7 +127,7 @@ System Under Design: Quarto App(Main Menu)
 Primary Actor:  User
 Goal: Open rule book
 Pre-Condition: none 
-Following cases: none
+Following cases: Open tutorial
 Success Post-Condition: User is able to read complete rule book.
 
 Actor:                                      System Processes:
@@ -146,7 +145,7 @@ System Under Design: Quarto App(Main Menu)
 Primary Actor: User
 Goal: Play the tutorial
 Pre-Condition: none.
-Following cases: none 
+Following cases: Open Tutorial
 Success Post-Condition: User is able to play the tutorial.
 
 Actor:                                          System Processes:
@@ -190,12 +189,52 @@ Following cases: none
 Success Post-Condition: User succesfully has game in ghost mode(lower opacity pieces)
 
 Actor:                                    System Processes:
+1. User opens quarto app                  2. System displays main menu.
+3. User selects settings button           4. System displays settings menu
+5.User selects Game board tab             6. System displays gameboard settings tab
+7. User selects "ghost mode on" button.
+-------------------------------------------------------------------------------------------------------------------------- 
 
+Title: Choose Item skin
+Description: Use case describes how user can select an item skin.
+System Under Design: Quarto app(Account/Shop Menu)
+Primary Actor: User
+Goal: Change skin of board pieces
+Pre-condition: user has already created an account
+Following cases: none
+Success Post-condition: Skins of board pieces changed.
 
-
-                                                
-                                                  
-
+Actor:                                        System Proccesses:
+1. User opens quarto app                      2. System displays main menu
+3. User selects shop option                   4. System displays shop menu
+5. User selects "purchased skins"             6. System displays all user purchased skins.
+7. User selects new skin to be used in game   8. System asks if the user wants to equip the skin
+9. User selects "yes".
+-------------------------------------------------------------------------------------------------------------------------- 
+ 
+ Title: Choose Competitive Mode
+ Description: Use case describes how to start a competitive game.
+ System Under Design: Quarto App(Online Game)
+ Primary Actor: User
+ Goal: Start a competitive game
+ Pre-Condition: Have created an account.
+ Following cases: Choose Gamemode, Create Account
+ Success Post-Condition: User starts a game of competitive quarto
+ 
+ Actor:                                      System Processes:
+ 1. User opens quarto app                    2. System displays main menu
+ 3. User selects "Play Game"                 4. System displays gamemode selection screen
+ 5. User selects competitive option          6. System searchs for opponent and starts game
+ 7. User plays competitive game of quarto
+ 
+ Alternate Paths:
+ At step 6 the user could have not had an account
+ 
+ Actor:                                     System Processes:
+                                            6. System prompts user to create an account
+7. User creates account                     8. System then allows user to find opponent and starts game
+9. User plays competitive game of quarto
+-------------------------------------------------------------------------------------------------------------------------- 
 
 
 
