@@ -122,7 +122,49 @@ Actor:                                              System Processes:
 5. User sees opponent place piece selected by user.
 -------------------------------------------------------------------------------------------------------------------------- 
 
-Title:
+Title: Open Rule Book
+Description: Use case describes the steps required by user to open the rule book.
+System Under Design: Quarto App(Main Menu)
+Primary Actor:  User
+Goal: Open rule book
+Pre-Condition: none 
+Following cases: none
+Success Post-Condition: User is able to read complete rule book.
+
+Actor:                                      System Processes:
+1. User opens Quarto app.                   2. System displays main menu.
+3. User selects Tutorial button.            4.System displays two options
+                                              a)Open Rule Book
+                                              b)Play through tutorial
+5. User selects "Open Rule Book"            6.System Displays rule book to user.
+7. User now has access to Quarto Rules.
+-------------------------------------------------------------------------------------------------------------------------- 
+
+Title: Play through tutorial
+Description: Use case describes how a user can play through the tutorial.
+System Under Design: Quarto App(Main Menu)
+Primary Actor: User
+Goal: Play the tutorial
+Pre-Condition: none.
+Following cases: none 
+Success Post-Condition: User is able to play the tutorial.
+
+Actor:                                          System Processes:
+1. User opens quarto app.                       2. System displays main menu 
+3. User selects tutorial option                 4. System Displays tutorial page with two options
+                                                   a) Open Rule Book
+                                                   b) Play through tutorial
+5. User selects "Play Through tutorial"         6. System Starts tutorial game.
+
+Alternate paths:
+At step 2 if the user is a new user.
+
+Actor:                                          System Processes:
+                                                2. System recognizes new player and displays "Would you like to play the tutorial"
+3. User selects yes                             4. System starts tutorial game.
+-------------------------------------------------------------------------------------------------------------------------- 
+
+Title: Rotate Board
 Description:
 System Under Design:
 Primary Actor:
@@ -133,6 +175,9 @@ Success Post-Condition:
 
 
 
+
+                                                
+                                                  
 
 
 
