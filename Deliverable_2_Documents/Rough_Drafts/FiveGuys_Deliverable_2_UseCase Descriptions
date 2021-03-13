@@ -165,14 +165,20 @@ Actor:                                          System Processes:
 -------------------------------------------------------------------------------------------------------------------------- 
 
 Title: Rotate Board
-Description:
-System Under Design:
-Primary Actor:
-Goal:
-Pre-Condition:
-Following cases:
-Success Post-Condition:
+Description: Use case describes how user can rotate board.
+System Under Design: Quarto app(Standard game procedure)
+Primary Actor: User
+Goal: Rotate game board
+Pre-Condition: Quarto game has started.
+Following cases: none
+Success Post-Condition: user is able to rotate board.
 
+Actor:                                      System Processes:
+1. User taps right side rotate button       2. System rotates board 90 degrees to the right
+3. User taps left side roatate button       4. System rotates board 90 degrees to the left
+5. User taps left side rotate button        6. System rotates board 90 degrees to the left
+7. User now has the board orientated the way they want.
+-------------------------------------------------------------------------------------------------------------------------- 
 
 
 
