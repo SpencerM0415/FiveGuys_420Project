@@ -18,4 +18,4 @@ Deliverable X Docs - Files needed for submission for a specified Deliverable
 
 Documentation - Current, up to date documentation
 
-src - Code base
+Unity - Holds the board prototype and eventually the game itself.
