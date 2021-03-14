@@ -9,9 +9,9 @@ Spencer Morse -
 Forrest Swift
 
 # The Game
-Quarto is traditionally a board game played by 2 players. The game is played on a 4 x 4 board where there are 16 unique playing pieces. The pieces are a unique combonation of the following: tall or short; pair of colors; square or circular; and hollow-top or solid-top. 
+Quarto is traditionally a board game played by 2 players. The game is played on a 4 x 4 board with 16 unique playing pieces. Each piece is a combination of the following qualities: tall or short; light or dark; square or circular; and hollow-top or solid-top. 
 
-The goal of the game is to take turns moving a piece until you are the first to have 4 pieces in a row that share at least one attribute.
+The game is played by taking turns placing a piece given to you by your opponent and then choosing a piece for your opponent to place. Play continues until there are 4 pieces in a row with at least one similar quality, or the board is filled.
 
 # The Code
 TBD
