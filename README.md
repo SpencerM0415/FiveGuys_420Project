@@ -15,7 +15,11 @@ The game is played by taking turns placing a piece given to you by your opponent
 
 # Table Of Contents
 Deliverable 0 Docs - Files needed for submission
+
 Deliverable 1 Docs - Files needed for submission
+
 Deliverable 2 Docs - Files needed for submission
+
 Documentation - Current, up to date documentation
+
 src - Code base
