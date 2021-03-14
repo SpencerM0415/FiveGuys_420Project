@@ -4,7 +4,7 @@ Features implemented
 - Use Case Models Doc
 - Use Case Descriptions Doc
 - Board Design and Game Pieces Using Unity
-- Basic Movement of Game Pieces  
+- Basic Movement of Game Pieces
 
 Issues fixed
 - SRS compound requirements
@@ -22,12 +22,17 @@ Changes made.
 - Compound requirements split in SRS
 - Sprint Backlog more accurately displays current objectives
 - Added mockup
+- Switched to Unity development 3/14
 
 Plans for next sprint
 - Implement basic AI
 - Create required documentation
 - Amend incorrect documentation
 - Aqcuire knowledge on Google Play Multiplayer API
+- Finish piece placement locking
+- Finish piece selection
+- Finish turn based gameplay
+- Recognize win conditions
 
 Scrum Review
 - Teammates all met on time
