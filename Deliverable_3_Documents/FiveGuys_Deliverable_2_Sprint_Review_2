@@ -1,0 +1,40 @@
+Sprint Review 2
+
+Features implemented
+- Use Case Models Doc
+- Use Case Descriptions Doc
+- Board Design and Game Pieces Using Unity
+- Basic Movement of Game Pieces
+
+Issues fixed
+- SRS compound requirements
+- Fixed Sprint Backlog
+- Fixed Product Backlog
+- Made app comparisons (as well as app names) more apparent and better structured
+
+Implementation review
+- Peter and Alex were able to successfully communicate quickly to ensure progress on the UCM and UCD documents were not held up when being worked on by separate people.
+- All teammates were able to attend scrum
+- Sprint and Product Backlog, UCM, and UCD documents were finished with enough time to submit for approval from management
+- Requirements of prototype implementation were clearly communicated
+
+Changes made.
+- Compound requirements split in SRS
+- Sprint Backlog more accurately displays current objectives
+- Added mockup
+- Switched to Unity development 3/14
+
+Plans for next sprint
+- Implement basic AI
+- Create required documentation
+- Amend incorrect documentation
+- Aqcuire knowledge on Google Play Multiplayer API
+- Finish piece placement locking
+- Finish piece selection
+- Finish turn based gameplay
+- Recognize win conditions
+
+Scrum Review
+- Teammates all met on time
+- Progress was discussed, work was assigned to all members of the group
+- Pitfalls and delays were discussed

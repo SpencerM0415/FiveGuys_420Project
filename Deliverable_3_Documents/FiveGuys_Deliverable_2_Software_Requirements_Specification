@@ -1,0 +1,390 @@
+Software Requirements Specification
+for
+Quarto App
+Version 1.0 approved
+Prepared by Alex Landry, Forrest Swift
+Five Guys
+2/25/2021
+
+
+Table of Contents    
+  1.    Introduction - 53
+    1.1    Purpose    
+    1.2    Document Conventions    
+    1.3    Intended Audience and Reading Suggestions    
+    1.4    Product Scope    
+    1.5    References    
+  2.    Overall Description - 91
+    2.1    Product Perspective    
+    2.2    Product Functions    
+    2.3    User Classes and Characteristics    
+    2.4    Operating Environment    
+    2.5    Design and Implementation Constraints    
+    2.6    User Documentation    
+    2.7    Assumptions and Dependencies    
+  3.    External Interface Requirements - 146
+    3.1    User Interfaces    
+    3.2    Hardware Interfaces    
+    3.3    Software Interfaces    
+    3.4    Communications Interfaces    
+  4.    System Features - 193
+    4.1    Quarto board
+    4.2    Main menu    
+    4.3    Game mode menu  
+    4.4    Tutorial mode
+    4.5    Settings menu
+    4.6    Shop menu
+    4.7    VS AI mode
+    4.8    Casual mode
+    4.9    Competitive mode
+  5.    Other Nonfunctional Requirements - 314
+    5.1    Performance Requirements    
+    5.2    Safety Requirements    
+    5.3    Security Requirements    
+    5.4    Software Quality Attributes    
+    5.5    Business Rules    
+  6.    Other Requirements - 346
+  Appendix A: Glossary    
+  Appendix B: Analysis Models    
+  Appendix C: To Be Determined List
+
+-----------------------------------------------------------------------------------------------------------------------------------------
+
+1. Introduction
+
+1.1 Purpose 
+  
+    The product that this SRS describes is an application that allows the user to play the game Quarto. This application will have 
+    many features that will teach players about the game and how to play the game. This application does not currently have a release 
+    number and is currently still in development. This application is being made for people who want to enjoy a board game with friends 
+    while also maybe learning something about the game they previously did not know. Also a goal of this application is to help teach 
+    new players how to play the game.
+
+1.2 Document Conventions
+    
+    In this document high priority requirements will be bolded.
+    
+1.3 Intended Audience and Reading Suggestions
+    
+      The intended audience for this document is for anyone who is working with this application such as developers, project managers, 
+    users, testers, documentation writers, etc. This document contains the reason why this application is being developed and how. It also 
+    goes into detail of what the future plans are for this application and what will be added. It will discuss what is needed to use the 
+    application and what the application needs in order to function properly for the user. It is recommended that you check the table of contents
+    to find specifically what you are looking for. The best way to read this document is from start to finish. The reason for this is that by 
+    reading it all you get a full understanding of the goals and objectives of the application. If you are searching for something specific the table
+    of contents mentioned earlier would be beneficial or just by reading the section names would give you an idea of what is being discussed in that section. 
+    
+1.4 Product Scope
+    
+    Our Quarto software has the main goal of emulating all aspects of the board game Quarto, including being able to rotate a board,
+    choose pieces for your opponent, place pieces on the board, and recognize victory conditions. Other important features will include
+    tutorials for new players and beginner ai to allow new players to learn the rules of the game. To keep our business able to produce
+    high quality games, we will be offering microtransactions to allow players to support our game if they enjoy it, including reskins
+    and recolors of pieces, the board, and backgrounds.
+    
+1.5 References
+    
+    N/A
+
+-----------------------------------------------------------------------------------------------------------------------------------------
+
+2. Overall Description
+
+2.1 Product Perspective
+    
+    This software will be a self contained game, intended to compete with other board game apps on the market.
+    
+2.2 Product Functions
+    
+    - Allow the board to rotate to 4 viewpoints
+    - Allow players to choose pieces for their opponent
+    - Allow players to place the piece chosen by their opponent
+    - Recognize "4-in-a-row" victory conditions
+    - Allow players to purchase recolors and reskins for their pieces, board, and backgrounds
+    - Allow players to select a tutorial, which explains the game rules to the player
+    - Allow players to compete against beginner ai
+    
+2.3 User Classes and Characteristics
+    
+    There will be several user classes for this application that will be split based on expected desired functionality. An example would be a beginner vs 
+    a competitive user. One difference between function of these user classes would be beginner users being hinted to use the tutorial vs experienced 
+    players not recieving this indicator. There will also be classes to distinguish between casual and competitive non-beginner users, as well as a class 
+    for users who utilize our microtransactions. An example of functionality specific to a paying user would be providing bundled deals on reskins and recolors. 
+    While there will be additional prompts and indicators based on user class, there will be no limited functions between users.
+    
+    To sum, possible user subclasses:
+    - Beginner user - Prompted to use tutorial, matched with other beginners or beginner ai until they improve.
+    - Casual user - Prompted to play against beginner ai, matched with beginner ai or other casual players.
+    - Competitive user - Prompted to play the ranked game mode, matched with casual players or ranked players based on mode.
+    - Paying user - Offered a bundled deal once per month, matched with casual players or ranked players based on mode.
+    
+2.4 Operating Environment
+    
+     The application will run on the Android 11 platform. The application does not need any other applications to run and has no applications 
+     needed to fully function.
+    
+2.5 Design and Implementation Constraints
+    
+    The software will be running in a mobile environment, so low hardware requirements and fitting onto a small screen are important. Language translation
+    options will expand the userbase but also requires minimal text so as to lower translation difficulty. As the software is being developed for android systems,
+    the software must be developed inside an android IDE.
+    
+2.6 User Documentation
+    
+     The application will include a rule page where it covers the rules of the game. Every user will also have the option to complete a tutorial on how to 
+     play quarto. This will delivered to the user inside of the application. There will be a button to click, much like a settings button that will bring you to a 
+     different screen that explain the rules and how to play. 
+    
+
+2.7 Assumptions and Dependencies
+    
+    The development will be done in an android IDE, however there will be no other dependencies on any external systems.
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------
+
+3. External Interface Requirements
+
+3.1 User Interfaces
+    
+    The main goals of the GUI will be clarity and simplicity. Clear, large fonts with few buttons and clickable areas will enable our
+    users to easily identify what they should be doing. As the software will be developed for android smartphones, the screen must be
+    able to be clearly viewed and interacted with on a smaller display.
+    
+    Main screen:
+      - Play button
+      - Tutorial button
+      - Settings button
+      - Shop button
+    
+    Settings screen:
+      - SFX volume slider
+      - Music volume slider
+      - Language selection
+      
+    Game screen:
+      - Centrally positioned isometric board
+      - Change board view arrows - rotate board 90 degrees east or west. Clickable
+      - 16 pieces in side trays, 8 on either side of the board
+    
+3.2 Hardware Interfaces
+    
+    Supported types:
+      - Desktop/PC with an emulator
+      - Android OS
+      We will be developing in an Android IDE
+    The application will use the GPU heavily to process the isometric graphics. The system will also heavily rely on the touchscreen for all inputs.
+      
+    
+3.3 Software Interfaces
+    
+    The only software communication needed for the system would be the installation/download phase at the beginning. The download for the app will 
+    be available on the Google Play Store. The system itself would only need a connection to our private servers, however it will be designed
+    to be playable regardless of connection to internet. In the case of an update, a communication between the system and the Google Play Store 
+    will be required to receive the update. 
+    
+    
+3.4 Communications Interfaces
+    
+    This system will use the built in Google Play Store multiplayer API to communicate all information between players.
+
+-----------------------------------------------------------------------------------------------------------------------------------------
+
+4. System Features  
+
+4.1 Quarto board
+    4.1.1 Description and priority
+          This feature will fully emulate the quarto board game. This feature will allow for board rotation to 4 viewpoints, allow players
+          to choose pieces for their opponent, allow players to place the pieces chosen by their opponent, and recognize victory conditions.
+          **Highest priority**
+    4.1.2 Stimulus/Response Sequences
+          Tapping on a piece will select it
+          Tapping on a button will give the piece to your opponent
+          Tapping on a board square will place your given piece
+          Tapping the ghost button will reduce opacity of the pieces
+          Tapping board rotate buttons will rotate the board 90 degrees east or west
+          Placing a winning piece will announce victory
+    4.1.3 Functional requirements
+          REQ-1: The system shall allow the user to rotate the board 90 degrees left
+          REQ-2: The system shall allow the user to rotate the board 90 degrees right
+          REQ-3: The system shall allow selection of a piece in the side trays
+          REQ-4: The system shall allow a player to offer their selected piece to their opponent on their turn
+          REQ-5: The system shall allow a player to place their selected piece on a game square
+          REQ-6: The system shall reduce piece opacity when ghost mode is selected
+          REQ-7: The system shall announce victory when 4 matching pieces are placed in a row
+
+4.2 Main menu
+    4.2.1 Description and priority
+          Provides player with a menu that allows navigation to all features
+          High priority
+    4.2.2 Stimulus/Response Sequences
+          Tapping a button brings the user to the defined menu
+    4.2.3 Functional requirements
+          REQ-1: The system shall include a Play button on the main menu screen that will bring the user to the mode selection screen
+          REQ-2: The system shall include a Tutorial button on the main menu screen that will bring the user to the tutorial mode
+          REQ-3: The system shall include a Settings button that will bring the user to the settings screen
+          REQ-4: The system shall include a Shop button that will bring the user to the shop screen
+          REQ-5:The system shall include a profile button that will bring you to their profile page
+          
+4.3 Mode selection menu
+    4.3.1 Description and priority
+          Provides player with a menu that allows selection of 3 different game modes: VS AI, Casual, and Competitive
+          High priority
+    4.3.2 Stimulus/Response Sequences
+          Tapping a button brings the user to the defined mode
+    4.3.3 Functional requirements
+          REQ-1: The system shall include a VS AI button that will bring the user to the VS AI game mode
+          REQ-2: The system shall include a Casual button that will bring the user to the Casual game mode
+          REQ-3: The system shall include a Competitive button that will bring the user to the Competitive game mode
+
+4.4 Tutorial mode
+    4.4.1 Description and priority
+          Teache new players the rules of the game. Each move will be prompted, and users will be locked out of use of
+          features not currently being showcased.
+          High priority
+    4.4.2 Stimulus/Response Sequences
+          Tapping pieces and buttons as indicated will progress the player through the tutorial
+    4.4.3 Functional Requirements
+          REQ-1: The system shall only allow the prompted actions during tutorial mode
+          REQ-2: The system shall guide the player through all steps of play
+              REQ-2.1: The system shall indicate how to select a piece for your opponent
+              REQ-2.2: The system shall indicate how to offer a selected piece to your opponent
+              REQ-2.3: The system shall indicate how to place a piece offered by your opponent
+              REQ-2.4: The system shall indicate how to rotate the board to see hidden pieces
+              REQ-2.5: The system shall indicate how to turn on ghost mode and reduce piece opacity
+              REQ-2.6: The system shall indicate what a victory condition is and how to obtain it
+
+4.5 Settings menu
+    4.5.1 Description and priority
+          Allows the user to select volume and other settings
+          Medium priority
+    4.5.2 Stimulus/Response Sequences
+          Moving the volume slider will adjust volume accordingly
+          Tapping the language button shall rotate through available languages
+    4.5.3 Functional Requirements
+          REQ-1: The system shall allow for volume to be raised
+          REQ-2: The system shall allow for volume to be lowered
+          REQ-3: The system shall allow for volume to be muted
+          REQ-4: The system shall allow for cycling between available languages
+
+4.6 Shop menu
+    4.6.1 Description and priority
+          Allows the player to purchase recolors and reskins for their pieces, board, and backgrounds.
+          Low priority
+    4.6.2 Stimulus/Response Sequences
+          Tapping a store item brings the user to a purchase screen
+    4.6.3 Functional Requirements
+          REQ-1: <TBD>
+
+4.7 VS AI mode
+    4.7.1 Description and priority
+          Allows the player to play against AI opponents in an offline matchmaking mode. Utilizes the quarto board 
+          once matchmaking is complete
+          High priority
+    4.7.2 Stimulus/Response Sequences
+          This feature will automatically load the game's native AI opponent without user input. Then the feature will
+          redirect the player to the quarto board.
+    4.7.3 Functional Requirements
+          REQ-1: The system AI shall recognize 3 pieces in a row with matching features
+          REQ-2: The system AI shall offer random pieces that do not give their opponent a win condition if available
+          REQ-3: The system AI shall offer a winning piece if no other pieces are available
+
+4.8 Casual mode
+    4.8.1 Description and priority
+          Play the game versus other casual players in an online matchmaking mode. Utilizes the quarto board once 
+          matchmaking is complete.
+          Medium priority
+    4.8.2 Stimulus/Response Sequences
+          This feature will automatically match the player with an opponent without user input. Then the feature will redirect both
+          players to the quarto board.
+    4.8.3 Functional Requirements
+          REQ-1: The system shall put the player into a group of other casual players
+          REQ-2: The system shall find an appropriate pair of players
+              REQ-2.1: The system shall first look for players with a low ping
+              REQ-2.2: The system shall second look for players with similar winrates
+          
+4.9 Competitive mode
+    4.9.1 Description and priority
+          Play the game versus other competitive players in a ranked online matchmaking mode. Utilizes the quarto board
+          once matchmaking is complete. Adjusts a hidden rank after each match.
+    4.9.2 Stimulus/Response Sequences
+          This feature will automatically match the player with an opponent without user input. Then the feature will redirect
+          both players to the quarto board.
+    4.9.3 Functional Requirements
+          REQ-2: The system shall find an appropriate pair of players
+              REQ-2.1: The system shall first look for players with similar competitive ratings
+              REQ-2.2: The system shall second look for players with a low ping
+          REQ-2: The system shall adjust a competitive rating based on the performance in the previous match
+          
+4.95 Profile Page
+  4.95.1. Description and priority
+          Check stats on profile page aswell as ranked leaderboards.
+  4.95.2 Stimulus/Response Sequences
+          This feature allows players to check on their stats and where they stand compared to other players.
+  4.95.3 Functional requirements
+          REQ-1 System will allow user to see stats from all games played on app.
+          REQ-2 System will allow user to see competitve leaderboards. 
+          
+
+-----------------------------------------------------------------------------------------------------------------------------------------
+
+5. Other Nonfunctional Requirements
+
+5.1 Performance Requirements
+    
+    The system shall not utilize more than 4GB of ram during normal runtime
+    
+5.2 Safety Requirements
+    
+    The system shall abide by COPPA and will only allow account creation by users 13 years of age or older.
+    
+5.3 Security Requirements
+
+    The system shall hide the user's IP address from malicious users
+    
+    The system shall hide the user's payment information from malicious users
+    
+5.4 Software Quality Attributes
+    
+    The system shall not crash for the first hour of gametime, 90% of the time
+    
+    The system shall relay a players move to their opponent within 30 seconds, 99% of the time.
+    
+    The system shall reach the game screen from launch within 1 minute, 99% of the time.
+    
+    
+5.5 Business Rules
+    
+    N/A
+    
+    
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------
+
+6. Other Requirements
+
+    N/A
+    
+
+-----------------------------------------------------------------------------------------------------------------------------------------
+
+Appendix A: Glossary
+    
+    Isometric: A 2.5d art style that creates an illusion of 3d by looking at the scene from a diagonal view.
+    
+    Matchmaking: A system to find opponents of similar skill
+    
+    Quarto: A board game with 16 unique pieces that are either large or small, dark or light, hollow or solid, and round or square. Players
+            take turns selecting pieces for their opponent to place on a 4x4 grid. The goal of the game is to connect 4 of a kind in a row 
+            by forcing your opponent to give you a winning piece.
+                        
+    
+
+Appendix B: Analysis Models
+
+    N/A
+
+Appendix C: To Be Determined List
+    
+    Line 278: Shop menu functional requirements.
