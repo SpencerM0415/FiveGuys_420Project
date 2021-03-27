@@ -54,11 +54,7 @@ Table of Contents
 
 1.1 Purpose 
   
-    The product that this SRS describes is an application that allows the user to play the game Quarto. This application will have 
-    many features that will teach players about the game and how to play the game. This application does not currently have a release 
-    number and is currently still in development. This application is being made for people who want to enjoy a board game with friends 
-    while also maybe learning something about the game they previously did not know. Also a goal of this application is to help teach 
-    new players how to play the game.
+    The product that this SRS describes is an application that allows the user to play the game Quarto. This application will have many features that will teach players about the game and how to play the game. This application does not currently have a release number and is currently still in development. This application is being made for people who want to enjoy a board game with friends while also maybe learning something about the game they previously did not know. Also a goal of this application is to help teach new players how to play the game.
 
 1.2 Document Conventions
     
@@ -66,21 +62,11 @@ Table of Contents
     
 1.3 Intended Audience and Reading Suggestions
     
-      The intended audience for this document is for anyone who is working with this application such as developers, project managers, 
-    users, testers, documentation writers, etc. This document contains the reason why this application is being developed and how. It also 
-    goes into detail of what the future plans are for this application and what will be added. It will discuss what is needed to use the 
-    application and what the application needs in order to function properly for the user. It is recommended that you check the table of contents
-    to find specifically what you are looking for. The best way to read this document is from start to finish. The reason for this is that by 
-    reading it all you get a full understanding of the goals and objectives of the application. If you are searching for something specific the table
-    of contents mentioned earlier would be beneficial or just by reading the section names would give you an idea of what is being discussed in that section. 
+      The intended audience for this document is for anyone who is working with this application such as developers, project managers, users, testers, documentation writers, etc. This document contains the reason why this application is being developed and how. It also goes into detail of what the future plans are for this application and what will be added. It will discuss what is needed to use the application and what the application needs in order to function properly for the user. It is recommended that you check the table of contents to find specifically what you are looking for. The best way to read this document is from start to finish. The reason for this is that by reading it all you get a full understanding of the goals and objectives of the application. If you are searching for something specific the table of contents mentioned earlier would be beneficial or just by reading the section names would give you an idea of what is being discussed in that section. 
     
 1.4 Product Scope
     
-    Our Quarto software has the main goal of emulating all aspects of the board game Quarto, including being able to rotate a board,
-    choose pieces for your opponent, place pieces on the board, and recognize victory conditions. Other important features will include
-    tutorials for new players and beginner ai to allow new players to learn the rules of the game. To keep our business able to produce
-    high quality games, we will be offering microtransactions to allow players to support our game if they enjoy it, including reskins
-    and recolors of pieces, the board, and backgrounds.
+    Our Quarto software has the main goal of emulating all aspects of the board game Quarto, including being able to rotate a board, choose pieces for your opponent, place pieces on the board, and recognize victory conditions. Other important features will include tutorials for new players and beginner ai to allow new players to learn the rules of the game. To keep our business able to produce high quality games, we will be offering microtransactions to allow players to support our game if they enjoy it, including reskins and recolors of pieces, the board, and backgrounds.
     
 1.5 References
     
@@ -106,11 +92,7 @@ Table of Contents
     
 2.3 User Classes and Characteristics
     
-    There will be several user classes for this application that will be split based on expected desired functionality. An example would be a beginner vs 
-    a competitive user. One difference between function of these user classes would be beginner users being hinted to use the tutorial vs experienced 
-    players not recieving this indicator. There will also be classes to distinguish between casual and competitive non-beginner users, as well as a class 
-    for users who utilize our microtransactions. An example of functionality specific to a paying user would be providing bundled deals on reskins and recolors. 
-    While there will be additional prompts and indicators based on user class, there will be no limited functions between users.
+    There will be several user classes for this application that will be split based on expected desired functionality. An example would be a beginner vs a competitive user. One difference between function of these user classes would be beginner users being hinted to use the tutorial vs experienced players not recieving this indicator. There will also be classes to distinguish between casual and competitive non-beginner users, as well as a class for users who utilize our microtransactions. An example of functionality specific to a paying user would be providing bundled deals on reskins and recolors. While there will be additional prompts and indicators based on user class, there will be no limited functions between users.
     
     To sum, possible user subclasses:
     - Beginner user - Prompted to use tutorial, matched with other beginners or beginner ai until they improve.
@@ -120,20 +102,15 @@ Table of Contents
     
 2.4 Operating Environment
     
-     The application will run on the Android 11 platform. The application does not need any other applications to run and has no applications 
-     needed to fully function.
+     The application will run on the Android 11 platform. The application does not need any other applications to run and has no applications needed to fully function.
     
 2.5 Design and Implementation Constraints
     
-    The software will be running in a mobile environment, so low hardware requirements and fitting onto a small screen are important. Language translation
-    options will expand the userbase but also requires minimal text so as to lower translation difficulty. As the software is being developed for android systems,
-    the software must be developed inside an android IDE.
+    The software will be running in a mobile environment, so low hardware requirements and fitting onto a small screen are important. Language translation options will expand the userbase but also requires minimal text so as to lower translation difficulty. As the software is being developed for android systems, the software must be developed inside an android IDE.
     
 2.6 User Documentation
     
-     The application will include a rule page where it covers the rules of the game. Every user will also have the option to complete a tutorial on how to 
-     play quarto. This will delivered to the user inside of the application. There will be a button to click, much like a settings button that will bring you to a 
-     different screen that explain the rules and how to play. 
+     The application will include a rule page where it covers the rules of the game. Every user will also have the option to complete a tutorial on how to play quarto. This will delivered to the user inside of the application. There will be a button to click, much like a settings button that will bring you to a different screen that explain the rules and how to play. 
     
 
 2.7 Assumptions and Dependencies
@@ -147,9 +124,7 @@ Table of Contents
 
 3.1 User Interfaces
     
-    The main goals of the GUI will be clarity and simplicity. Clear, large fonts with few buttons and clickable areas will enable our
-    users to easily identify what they should be doing. As the software will be developed for android smartphones, the screen must be
-    able to be clearly viewed and interacted with on a smaller display.
+    The main goals of the GUI will be clarity and simplicity. Clear, large fonts with few buttons and clickable areas will enable our users to easily identify what they should be doing. As the software will be developed for android smartphones, the screen must be able to be clearly viewed and interacted with on a smaller display.
     
     Main screen:
       - Play button
@@ -178,10 +153,7 @@ Table of Contents
     
 3.3 Software Interfaces
     
-    The only software communication needed for the system would be the installation/download phase at the beginning. The download for the app will 
-    be available on the Google Play Store. The system itself would only need a connection to our private servers, however it will be designed
-    to be playable regardless of connection to internet. In the case of an update, a communication between the system and the Google Play Store 
-    will be required to receive the update. 
+    The only software communication needed for the system would be the installation/download phase at the beginning. The download for the app will be available on the Google Play Store. The system itself would only need a connection to our private servers, however it will be designed to be playable regardless of connection to internet. In the case of an update, a communication between the system and the Google Play Store will be required to receive the update. 
     
     
 3.4 Communications Interfaces
@@ -194,8 +166,7 @@ Table of Contents
 
 4.1 Quarto board
     4.1.1 Description and priority
-          This feature will fully emulate the quarto board game. This feature will allow for board rotation to 4 viewpoints, allow players
-          to choose pieces for their opponent, allow players to place the pieces chosen by their opponent, and recognize victory conditions.
+          This feature will fully emulate the quarto board game. This feature will allow for board rotation to 4 viewpoints, allow players to choose pieces for their opponent, allow players to place the pieces chosen by their opponent, and recognize victory conditions.
           **Highest priority**
     4.1.2 Stimulus/Response Sequences
           Tapping on a piece will select it
@@ -239,8 +210,7 @@ Table of Contents
 
 4.4 Tutorial mode
     4.4.1 Description and priority
-          Teache new players the rules of the game. Each move will be prompted, and users will be locked out of use of
-          features not currently being showcased.
+          Teache new players the rules of the game. Each move will be prompted, and users will be locked out of use of features not currently being showcased.
           High priority
     4.4.2 Stimulus/Response Sequences
           Tapping pieces and buttons as indicated will progress the player through the tutorial
@@ -340,9 +310,9 @@ Table of Contents
     
 5.3 Security Requirements
 
-    The system shall hide the user's IP address from malicious users
+    The system shall only use one firewall port to reduce malicious points of entry.
     
-    The system shall hide the user's payment information from malicious users
+    The system shall encrypt the payment information of users using a custom character table encryption.
     
 5.4 Software Quality Attributes
     
@@ -375,9 +345,7 @@ Appendix A: Glossary
     
     Matchmaking: A system to find opponents of similar skill
     
-    Quarto: A board game with 16 unique pieces that are either large or small, dark or light, hollow or solid, and round or square. Players
-            take turns selecting pieces for their opponent to place on a 4x4 grid. The goal of the game is to connect 4 of a kind in a row 
-            by forcing your opponent to give you a winning piece.
+    Quarto: A board game with 16 unique pieces that are either large or small, dark or light, hollow or solid, and round or square. Players take turns selecting pieces for their opponent to place on a 4x4 grid. The goal of the game is to connect 4 of a kind in a row by forcing your opponent to give you a winning piece.
                         
     
 
