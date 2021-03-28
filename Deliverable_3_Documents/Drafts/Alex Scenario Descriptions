@@ -1,0 +1,30 @@
+Scenario descriptions
+
+Sequence 1 
+8. system asks user if they want to equip skin
+9.1 user selects yes.
+9.1.1 Quarto system requests skin change to quarto gui
+9.1.2 Quarto GUI updates all skins of pieces to selected skin
+9.1.3 Quarto system displays "Skins succesfully changed"
+9.1.4 Quarto System requests shop page from  quarto GUI
+9.1.5 Quarto GUI displays shop page to user
+9.2 User selects no
+9.2.1 Quarto System requests shop page from  quarto GUI
+9.2.2 Quarto GUI displays shop page to user
+
+
+Sequence 2
+3. System displays gamemode selection screen
+4. User selects casual Casual
+4.1 Quarto system searches for opponent
+4.2 Quarto Sysetm requests board screen form Quarto GUI
+4.3 Quarto GUI displays game board screen
+4.4 Quarto System displays "Your Move!"
+
+Sequence 3
+6. Quarto System displays gameboard settings tab
+7. User Selects "Ghostmode on"
+7.1 Quarto System requests that the Quarto GUI enables ghostmode 
+7.2 Quarto GUI displays "Ghostmode enabled" to user
+7.3 Quarto System requests Gameboard ssettings tab from Quarto GUI
+7.4 Quarto GUI displays Gameboard settings to user
