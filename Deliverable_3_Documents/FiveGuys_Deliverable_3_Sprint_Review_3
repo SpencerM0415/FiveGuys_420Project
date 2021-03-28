@@ -1,40 +1,39 @@
-Sprint Review 2
+Sprint Review 3
 
 Features implemented
-- Use Case Models Doc
-- Use Case Descriptions Doc
-- Board Design and Game Pieces Using Unity
-- Basic Movement of Game Pieces
+-Analysis/Design Sequence Diagram documents created and edited by all members
+-All documents edited as per last deliverable feedback (all members)
+-Unity knowledge acquisition (all members)
 
 Issues fixed
-- SRS compound requirements
-- Fixed Sprint Backlog
-- Fixed Product Backlog
-- Made app comparisons (as well as app names) more apparent and better structured
+-Updated SRS document, Sprint Backlog (Forrest)
+-Updated  Product Backlog (Spencer)
+-Updated Use Case Models and Descriptions Documents as specified in feedback (Peter, Alex)
 
 Implementation review
-- Peter and Alex were able to successfully communicate quickly to ensure progress on the UCM and UCD documents were not held up when being worked on by separate people.
-- All teammates were able to attend scrum
-- Sprint and Product Backlog, UCM, and UCD documents were finished with enough time to submit for approval from management
-- Requirements of prototype implementation were clearly communicated
+-All teammates attended scrum, communicated quickly and efficiently. (all members)
+-Sharing of templates & individual processes through discord was extremely useful for Sequence Diagram creation among all members (all members)
+-Organized times to meet/discuss the project well. (all members)
+-Documents completed on time. (all members)
+-Sharing of feedback and advice from all members was extraordinarily useful for document cohesion (all members)
 
-Changes made.
-- Compound requirements split in SRS
-- Sprint Backlog more accurately displays current objectives
-- Added mockup
-- Switched to Unity development 3/14
+Changes made
+-Use Case Model System boundaries clarified (Peter)
+-Use Case Diagram relationships clarified (Alex)
+-Added required documents to GitHub (All members)
+-Sprint review changed to reflect individual participation. (Peter)
 
-Plans for next sprint
-- Implement basic AI
-- Create required documentation
-- Amend incorrect documentation
-- Aqcuire knowledge on Google Play Multiplayer API
-- Finish piece placement locking
-- Finish piece selection
-- Finish turn based gameplay
-- Recognize win conditions
+Plans for next Sprint (Sprint 4)
+-Update documents as required based on feedback given for deliverable 3 (to be assigned)
+-Create new required documentation (to be assigned):
+  1. Domain Model
+  2.Configuration Management Plan
+  3.Focus Group Document
+  4. Sprint Review 4
+-continuation in app development (to be assigned)
 
 Scrum Review
-- Teammates all met on time
-- Progress was discussed, work was assigned to all members of the group
-- Pitfalls and delays were discussed
+-Scrum managed as needed, individuals reminded/ informed as needed (Peter)
+-All teammates contributed on time (all members)
+-work split up efficiently among all members (all members)
+-assigned roles of scrum master (Peter), and product owner (Spencer) early, facilitating the division of work.
