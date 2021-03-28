@@ -1,0 +1,33 @@
+Scenario Descriptions
+
+Sequence 1
+1. User clicks button to rotate board
+If user selects right rotation button
+2. System calls right side rotation function
+2.1 System gives board location update to GUI
+2.1.1 GUI displays rotated board to user
+If user slects left side rotation button
+2.2 System calls left side rotation function
+2.2.1 System gives board location update to GUI
+2.2.2 GUI displays rotated board to user
+
+Sequence 2
+5. User is able to purchase items in shop
+5.1 User clicks shop button
+5.1.1 System access shop page
+5.1.2 GUI displays shop page to user
+5.1.3 System checks database for if user has account and is of correct age
+If user meets requirments
+5.2 GUI displays items available for purchase to user
+else
+5.3 GUI displays "You are not able to purchase from the shop".
+
+Sequence 3
+1.User opens rule book
+1.1 User selects tutorial button
+1.1.2 GUI displays two options "Rule Book" or "Play Tutorial"
+If user selects "Rule Book"
+1.2 User request access from system to rule book
+1.2.1 GUI displays rule book to user
+Else
+1.3 User selected other option
