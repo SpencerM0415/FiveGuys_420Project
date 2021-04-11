@@ -1,0 +1,42 @@
+Script:
+
+After seeing the the product video and product mock up I'd like you to answer a couple questions and ask any questions you may have.
+
+Q1. What do you like about the app from what you have seen and heard today?
+
+A: The scope of the app is good in that it fulfills its objectives in providing a simple, easy to play game app. It is easy to play and 
+offers varied gameplay.
+
+Q2. What do you not like about the app?
+
+A: lackluster visuals, lack of intuitive visual queues for players to know what to do when.
+
+Q3. What would you like to see from our product in the future?
+
+A:Extensions of board size, composition, such as a 5x5 board, or board with certain squares greyed out so players cannot place there.
+
+Q4. What would you change about the product?
+
+A: Add more life to the game, such as a narrative or storytelling aspect. Give the player a reason to care about the competition other
+than simply beating the opponent's pieces
+
+Q5. How long do you think you'd use our product?
+
+A: Probably about 45 minutes over the course of 4-5 days.
+
+Q6. Are there any questions about our product that you have that we havent touched upon today?
+    Yes: Is there a way to connect with social media to post interesting gameplay styles or scores et cetera?
+    
+    Answer: Although that is not part of the app plans at the moment, it is a great suggestion, one that we hope to adress in a future
+            release.
+
+
+
+
+Permission Form
+
+
+I am allowing recording of myself and my answers to any questions in this focus group.
+
+Participants Signature:________Mary_Field______________________________________
+Date: 4/10/2021
