@@ -173,6 +173,10 @@ MonoBehaviour:
   - {fileID: 252686076}
   startPoint: {fileID: 1647663815}
   box: {fileID: 18038246}
+  height: 
+  color: 
+  fill: 
+  shape: 
 --- !u!212 &18038243
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -211,7 +215,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 2871a673bd9b1ec40a7209ff7987c821, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -386,7 +390,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 112e2ed6594e761429b4d2a77bf5bb75, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -443,6 +447,10 @@ MonoBehaviour:
   - {fileID: 252686076}
   startPoint: {fileID: 1195853221}
   box: {fileID: 60287929}
+  height: tall
+  color: orange
+  fill: hollow
+  shape: circle
 --- !u!58 &60287928
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -554,6 +562,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
+  height: 
+  color: 
+  fill: 
+  shape: 
 --- !u!1 &139032997
 GameObject:
   m_ObjectHideFlags: 0
@@ -606,6 +618,10 @@ MonoBehaviour:
   - {fileID: 252686076}
   startPoint: {fileID: 1761510437}
   box: {fileID: 139033001}
+  height: tall
+  color: orange
+  fill: solid
+  shape: square
 --- !u!212 &139032999
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -644,7 +660,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: c97ec74d721ee504ba0c0b8652d2a4bf, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -821,6 +837,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
+  height: 
+  color: 
+  fill: 
+  shape: 
 --- !u!1 &172176399
 GameObject:
   m_ObjectHideFlags: 0
@@ -981,6 +1001,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
+  height: 
+  color: 
+  fill: 
+  shape: 
 --- !u!1 &253485866
 GameObject:
   m_ObjectHideFlags: 0
@@ -1042,6 +1066,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
+  height: 
+  color: 
+  fill: 
+  shape: 
 --- !u!1 &282561558
 GameObject:
   m_ObjectHideFlags: 0
@@ -1124,6 +1152,10 @@ MonoBehaviour:
   - {fileID: 252686076}
   startPoint: {fileID: 643340992}
   box: {fileID: 317617048}
+  height: 
+  color: 
+  fill: 
+  shape: 
 --- !u!212 &317617045
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1162,7 +1194,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 5321a3239ef737f4aabc180f77a581a6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1290,6 +1322,10 @@ MonoBehaviour:
   - {fileID: 252686076}
   startPoint: {fileID: 1413838799}
   box: {fileID: 348004801}
+  height: 
+  color: 
+  fill: 
+  shape: 
 --- !u!212 &348004798
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1328,7 +1364,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 7df585d12364a5843be67d4f0391c4c2, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1466,6 +1502,10 @@ MonoBehaviour:
   - {fileID: 252686076}
   startPoint: {fileID: 678567988}
   box: {fileID: 415113060}
+  height: 
+  color: 
+  fill: 
+  shape: 
 --- !u!212 &415113057
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1504,7 +1544,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 48611555074c83b43adffcf5c767c186, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1876,6 +1916,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
+  height: 
+  color: 
+  fill: 
+  shape: 
 --- !u!1 &634568911
 GameObject:
   m_ObjectHideFlags: 0
@@ -1937,6 +1981,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
+  height: 
+  color: 
+  fill: 
+  shape: 
 --- !u!1 &634754568
 GameObject:
   m_ObjectHideFlags: 0
@@ -2109,6 +2157,10 @@ MonoBehaviour:
   - {fileID: 252686076}
   startPoint: {fileID: 19109985}
   box: {fileID: 830881807}
+  height: 
+  color: 
+  fill: 
+  shape: 
 --- !u!212 &830881804
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2147,7 +2199,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 2871a673bd9b1ec40a7209ff7987c821, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -2285,6 +2337,10 @@ MonoBehaviour:
   - {fileID: 252686076}
   startPoint: {fileID: 554347351}
   box: {fileID: 905636714}
+  height: tall
+  color: orange
+  fill: hollow
+  shape: square
 --- !u!212 &905636711
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2323,7 +2379,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 48611555074c83b43adffcf5c767c186, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -2461,6 +2517,10 @@ MonoBehaviour:
   - {fileID: 252686076}
   startPoint: {fileID: 634754569}
   box: {fileID: 938025260}
+  height: 
+  color: 
+  fill: 
+  shape: 
 --- !u!212 &938025257
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2499,7 +2559,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: c97ec74d721ee504ba0c0b8652d2a4bf, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -2644,7 +2704,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: c4e514f402aa9774dbaa6c352afea2f7, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -2701,6 +2761,10 @@ MonoBehaviour:
   - {fileID: 252686076}
   startPoint: {fileID: 793515854}
   box: {fileID: 939826062}
+  height: tall
+  color: orange
+  fill: solid
+  shape: circle
 --- !u!58 &939826061
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -2803,6 +2867,10 @@ MonoBehaviour:
   - {fileID: 252686076}
   startPoint: {fileID: 1327837744}
   box: {fileID: 1001973243}
+  height: 
+  color: 
+  fill: 
+  shape: 
 --- !u!212 &1001973240
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2841,7 +2909,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 6ec6905ee76b9ce4bafaa5da207de6b8, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -3008,6 +3076,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
+  height: 
+  color: 
+  fill: 
+  shape: 
 --- !u!1 &1242876469
 GameObject:
   m_ObjectHideFlags: 0
@@ -3233,6 +3305,10 @@ MonoBehaviour:
   - {fileID: 252686076}
   startPoint: {fileID: 1242876470}
   box: {fileID: 1318435637}
+  height: 
+  color: 
+  fill: 
+  shape: 
 --- !u!212 &1318435634
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3271,7 +3347,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: c4e514f402aa9774dbaa6c352afea2f7, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -3468,6 +3544,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
+  height: 
+  color: 
+  fill: 
+  shape: 
 --- !u!1 &1465763065
 GameObject:
   m_ObjectHideFlags: 0
@@ -3520,6 +3600,10 @@ MonoBehaviour:
   - {fileID: 252686076}
   startPoint: {fileID: 282561559}
   box: {fileID: 1465763070}
+  height: 
+  color: 
+  fill: 
+  shape: 
 --- !u!212 &1465763067
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3558,7 +3642,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 7df585d12364a5843be67d4f0391c4c2, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -3705,6 +3789,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
+  height: 
+  color: 
+  fill: 
+  shape: 
 --- !u!1 &1490512140
 GameObject:
   m_ObjectHideFlags: 0
@@ -3833,6 +3921,10 @@ MonoBehaviour:
   - {fileID: 252686076}
   startPoint: {fileID: 168168013}
   box: {fileID: 1560620617}
+  height: 
+  color: 
+  fill: 
+  shape: 
 --- !u!212 &1560620614
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3871,7 +3963,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 112e2ed6594e761429b4d2a77bf5bb75, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -4022,6 +4114,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
+  height: 
+  color: 
+  fill: 
+  shape: 
 --- !u!58 &1649983614
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -4090,6 +4186,10 @@ MonoBehaviour:
   - {fileID: 252686076}
   startPoint: {fileID: 1498349486}
   box: {fileID: 1657420714}
+  height: 
+  color: 
+  fill: 
+  shape: 
 --- !u!212 &1657420711
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4128,7 +4228,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 5321a3239ef737f4aabc180f77a581a6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -4286,6 +4386,10 @@ MonoBehaviour:
   - {fileID: 252686076}
   startPoint: {fileID: 1657923139}
   box: {fileID: 1686952155}
+  height: 
+  color: 
+  fill: 
+  shape: 
 --- !u!212 &1686952152
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4324,7 +4428,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 6ec6905ee76b9ce4bafaa5da207de6b8, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -4461,6 +4565,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
+  height: 
+  color: 
+  fill: 
+  shape: 
 --- !u!1 &1761510436
 GameObject:
   m_ObjectHideFlags: 0
@@ -4552,6 +4660,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
+  height: 
+  color: 
+  fill: 
+  shape: 
 --- !u!1 &1846809218
 GameObject:
   m_ObjectHideFlags: 0
@@ -4613,6 +4725,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
+  height: 
+  color: 
+  fill: 
+  shape: 
 --- !u!1 &1912717127
 GameObject:
   m_ObjectHideFlags: 0
@@ -4674,6 +4790,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
+  height: 
+  color: 
+  fill: 
+  shape: 
 --- !u!1 &1968156657
 GameObject:
   m_ObjectHideFlags: 0
@@ -4894,6 +5014,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
+  height: 
+  color: 
+  fill: 
+  shape: 
 --- !u!1 &2098333146
 GameObject:
   m_ObjectHideFlags: 0
@@ -4955,3 +5079,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isOccupied: 0
+  height: 
+  color: 
+  fill: 
+  shape: 

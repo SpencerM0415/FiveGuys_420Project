@@ -8,11 +8,18 @@ public class PieceMove : MonoBehaviour
     public Transform[] waypoints; //waypoints to store board locations
     public Transform startPoint;
     public Box box;
+    public string height;
+    public string color;
+    public string fill;
+    public string shape;
+
     private bool onBoard = false;
-    private Transform test;
-    private int testt = 0;
+    private Transform piecePosition;
+    private int collision = 0;
     private string name;
     private GameObject point;
+
+
 
     [SerializeField] 
 
@@ -30,25 +37,35 @@ public class PieceMove : MonoBehaviour
             transform.position = startPoint.transform.position;
         }
 
-        if (testt == 1)
+        if (collision == 1)
         {
-            transform.position = test.position;
+            transform.position = piecePosition.position;
             point = GameObject.Find(name);
             point.gameObject.GetComponent<WaypointData>().isOccupied = true;
+            point.gameObject.GetComponent<WaypointData>().shape = this.shape;
+            point.gameObject.GetComponent<WaypointData>().color = this.color;
+            point.gameObject.GetComponent<WaypointData>().height = this.height;
+            point.gameObject.GetComponent<WaypointData>().fill = this.fill;
 
-        } else if (testt == 2)
+
+        } else if (collision == 2)
         {
             point.gameObject.GetComponent<WaypointData>().isOccupied = false;
+            point.gameObject.GetComponent<WaypointData>().shape = "";
+            point.gameObject.GetComponent<WaypointData>().color = "";
+            point.gameObject.GetComponent<WaypointData>().height = "";
+            point.gameObject.GetComponent<WaypointData>().fill = "";
         }
 
 
 
         // Win conditions
-        if (    (waypoints[0].GetComponent<WaypointData>().isOccupied) &&
-                (waypoints[1].GetComponent<WaypointData>().isOccupied) &&
-                (waypoints[2].GetComponent<WaypointData>().isOccupied) &&
-                (waypoints[3].GetComponent<WaypointData>().isOccupied) ) {
-            Debug.Log("Hello");
+        if (    (waypoints[0].GetComponent<WaypointData>().color == waypoints[1].GetComponent<WaypointData>().color) &&
+                (waypoints[1].GetComponent<WaypointData>().color == waypoints[2].GetComponent<WaypointData>().color) &&
+                (waypoints[2].GetComponent<WaypointData>().color == waypoints[3].GetComponent<WaypointData>().color) &&
+                (   (waypoints[0].GetComponent<WaypointData>().color == "orange") ||
+                    (waypoints[0].GetComponent<WaypointData>().color == "pink") )    )
+        {
             SceneManager.LoadScene(3, LoadSceneMode.Single);
         }
     }
@@ -64,8 +81,8 @@ public class PieceMove : MonoBehaviour
                 //Debug.Log("Stay");
                 //other.gameObject.GetComponent<WaypointData>().isOccupied = true;
                 name = other.name;
-                test = other.transform;
-                testt = 1;
+                piecePosition = other.transform;
+                collision = 1;
             }
         }
     }
@@ -74,7 +91,7 @@ public class PieceMove : MonoBehaviour
     {
         if (other.tag == "Point")
         {
-            testt = 2;
+            collision = 2;
             //other.gameObject.GetComponent<WaypointData>().isOccupied = false;
             onBoard = false;
         }

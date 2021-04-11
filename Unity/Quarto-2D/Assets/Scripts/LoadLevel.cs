@@ -18,7 +18,7 @@ public class LoadLevel : MonoBehaviour
 
     public void UnloadScene(int level)
     {
-        SceneManager.UnloadScene(level);
+        SceneManager.UnloadSceneAsync(level);
 
     }
 }

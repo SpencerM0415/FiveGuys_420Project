@@ -19,9 +19,7 @@ public class Box : MonoBehaviour
             mousePos = Input.mousePosition;
             mousePos = Camera.main.ScreenToWorldPoint(mousePos);
 
-            //transform.position = startPoint.transform.position;
-
-            this.gameObject.transform.position = new Vector3(mousePos.x, mousePos.y, 0);
+             this.gameObject.transform.position = new Vector3(mousePos.x, mousePos.y, 0);
         }
 
     }
