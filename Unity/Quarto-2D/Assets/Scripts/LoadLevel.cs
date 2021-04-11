@@ -6,8 +6,19 @@ using UnityEngine.SceneManagement;
 
 public class LoadLevel : MonoBehaviour
 {
-    public void LoadScene(int level)
+    public void LoadSceneSingle(int level)
     {
         SceneManager.LoadScene(level, LoadSceneMode.Single);
+    }
+    
+    public void LoadSceneAdditive(int level)
+    {
+        SceneManager.LoadScene(level, LoadSceneMode.Additive);
+    }
+
+    public void UnloadScene(int level)
+    {
+        SceneManager.UnloadScene(level);
+
     }
 }
