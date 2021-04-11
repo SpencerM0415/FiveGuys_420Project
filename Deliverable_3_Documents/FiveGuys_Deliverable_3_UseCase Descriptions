@@ -4,7 +4,7 @@ System under design: Quarto app(Main Menu).
 Primary Actor:  Quarto App user.
 Goal: Select a game mode and start the game.
 Precomdition: None.
-Following use cases: Choose Competitive Mode, Choose AI Mode, Choose Casual Mode
+Following use cases: Choose Competitive Mode(generalize), Choose AI Mode(generalize), Choose Casual Mode(genralize)
 Success Post-Condition: Gamemode that user selected starts.
 
 Actor:                                    System Processes:
@@ -30,7 +30,7 @@ System Under Design: Quarto App(Settings)
 Primary actor: User
 Goal: Change the language of the app.
 Precondition: None
-Following use cases: None
+Following use cases: Open Settings(extend)
 Success Post-Condition: Langauge is changed in the app.
 
 Actor:                                        System Processes:
@@ -48,7 +48,7 @@ System Under design: Quarto app(in game)
 Primary Actor: User
 Goal: Place a piece in a valid spot. 
 Pre-condition: Start a game of Quarto from mode selection menu.
-Following use cases: Claim Victory 
+Following use cases: Claim Victory(extend
 Success Post-Condition: User places valid quarto piece on board.
 
 Actor:                                          System Processes:                                            
@@ -71,7 +71,7 @@ System Under Design: Quarto app(shop)
 Primary Actor: User
 Goal: Have user enter shop.
 Pre-Condition: None
-Following use cases: Account creation, Verify Age
+Following use cases: Create Account(include), Verify Age
 Success Post-Condition: User is able to access shop page.
 
 Actor:                                          System Processes:
@@ -127,7 +127,7 @@ System Under Design: Quarto App(Main Menu)
 Primary Actor:  User
 Goal: Open rule book
 Pre-Condition: none 
-Following cases: Open tutorial
+Following cases: Open tutorial(include)
 Success Post-Condition: User is able to read complete rule book.
 
 Actor:                                      System Processes:
@@ -145,7 +145,7 @@ System Under Design: Quarto App(Main Menu)
 Primary Actor: User
 Goal: Play the tutorial
 Pre-Condition: none.
-Following cases: Open Tutorial
+Following cases: Open Tutorial(include)
 Success Post-Condition: User is able to play the tutorial.
 
 Actor:                                          System Processes:
@@ -218,7 +218,7 @@ Actor:                                        System Processes:
  Primary Actor: User
  Goal: Start a competitive game
  Pre-Condition: Have created an account.
- Following cases: Choose Gamemode, Create Account, Match Score with Opponent, Update Score
+ Following cases: Choose Gamemode(generalize), Create Account(extend), Match Score with Opponent(extend), Update Score(include)
  Success Post-Condition: User starts a game of competitive quarto
  
  Actor:                                      System Processes:
@@ -242,7 +242,7 @@ System Under design: Quarto App(Account)
 Primary actor: User
 Goal: Create an account for user
 Pre-Conidtion: none
-Following cases: Verify Age
+Following cases: Verify Age(include)
 Success Post-Conditions: Account created for user
 
 Actor:                                                      System Processes:
@@ -260,7 +260,7 @@ System Under Design: Quarto app(Online Game)
 Primary actor: User
 Goal: Start AI game
 Pre-Condition: none
-Following cases: Choose gamemode
+Following cases: Choose gamemode(generalize)
 Success Post-Conditon: User starts game of quarto against AI
 
 Actor:                                                  System Process 
@@ -277,7 +277,7 @@ System Under Design: Quarto App(Online Game)
 Primary actor: User
 Goal: Start Casual Game
 Pre-Condition: none
-Following cases: Choose gamemode
+Following cases: Choose gamemode(generalize)
 Success Post-Condition: User starts casual game of quarto
 
 Actor:                                              System Processes:
