@@ -1,0 +1,31 @@
+Scenario Descriptions
+
+Sequence 1
+7. User starts playing Quarto against AI
+7.1 Player starts playing Quarto VS AI
+7.2 Quarto System requests AI from AI System
+7.3 AI System returns AI object to Quarto System
+7.4 Quarto System requests Board Screen from Quarto GUI
+7.5 Quarto GUI displays Board Screen to user
+7.6 Quarto System displays "Your Move!" to Player
+
+
+Sequence 2
+9. System changes all language in the app to Spanish
+9.1 User sends "Spanish" to QuartoSystem
+9.2 Quarto System requests "Change Language Spanish" from Quarto GUI
+9.3 Quarto GUI displays updated GUI to User
+9.4 Quarto System displays "Cambio de idioma exitoso" to User
+9.5 Quarto System requests Language Selection Screen from Quarto GUI
+9.6 Quarto GUI displays Language Selection Screen
+
+
+Sequence 3
+5. User places the preselected piece on board.
+5.1 User selects square to place piece
+5.2 If square is available
+    5.2.1 Quarto System sends piece placement to Quarto GUI
+    5.2.2 Quarto GUI displays updated GUI to User
+    5.2.3 Quarto System displays "Please wait for your opponent..." to User
+5.2.4 If square is not available
+    5.2.5 Quarto System displays "Invalid move" to User
