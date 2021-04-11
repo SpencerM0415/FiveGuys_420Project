@@ -13,6 +13,6 @@ namespace QuartoGame
 		public string color = "";
 		public string hole = "";
 		public string type = "";
-		public char pieceSign = "X";
+		public char pieceSign = 'X';
 	}
 }
