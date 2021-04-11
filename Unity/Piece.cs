@@ -1,4 +1,5 @@
-﻿using System;
+// Script to hold attributes for game pieces
+using System;
 using System.Text;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,6 +13,6 @@ namespace QuartoGame
 		public string color = "";
 		public string hole = "";
 		public string type = "";
-		public char pieceSign = "";
+		public char pieceSign = "X";
 	}
 }
