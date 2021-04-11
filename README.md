@@ -19,3 +19,6 @@ Deliverable X Docs - Files needed for submission for a specified Deliverable
 Documentation - Current, up to date documentation
 
 Unity - Holds the board prototype and eventually the game itself.
+
+# Dependencies
+Unity 2019.4.16f1
