@@ -7,7 +7,7 @@ public class Box : MonoBehaviour
 
     private float startPosX;
     private float startPosY;
-    private bool isBeingHeld = false;
+    public bool isBeingHeld = false;
 
     // Update is called once per frame
     void Update()
@@ -46,4 +46,7 @@ public class Box : MonoBehaviour
         isBeingHeld = false;
 
     }
+
+   
+
 }

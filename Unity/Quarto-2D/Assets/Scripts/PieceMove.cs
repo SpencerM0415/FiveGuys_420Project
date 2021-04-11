@@ -6,13 +6,9 @@ public class PieceMove : MonoBehaviour
 {
     public Transform[] waypoints; //waypoints to store board locations
     public Transform startPoint;
+    public Box box;
 
-    [SerializeField]
-    private float moveSpeed = 1f;
-
-    public int waypointIndex = 0;
-
-    public bool moveAllowed = false;
+    [SerializeField] 
 
     // Start is called before the first frame update
     void Start()
@@ -23,24 +19,21 @@ public class PieceMove : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (moveAllowed)
-        {
-            Move();
-        }
+       
     }
 
-    private void Move()
+
+    private void OnTriggerStay2D(Collider2D other)
     {
-        if (waypointIndex <= waypoints.Length - 1)
+        //        if (box.isBeingHeld)
+        //        {
+        Debug.Log("Held");
+        //Destroy(this.gameObject);
+        //        }
+        if ((box.isBeingHeld == false) && (other.tag == "Point"))
         {
-
-            transform.position = Vector2.MoveTowards(transform.position,
-                waypoints[waypointIndex].transform.position,
-                moveSpeed * Time.deltaTime);
-            if (transform.position == waypoints[waypointIndex].transform.position)
-            {
-                waypointIndex += 1;
-            }
+            this.transform.position = other.transform.position;
         }
     }
+
 }
