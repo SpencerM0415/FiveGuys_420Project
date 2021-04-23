@@ -13,11 +13,11 @@ public class PieceMove : MonoBehaviour
     public string fill;
     public string shape;
 
-    private bool onBoard = false;
+    public bool onBoard = false;
     private Transform piecePosition;
     private int collision = 0;
     private string name;
-    private GameObject point;
+    public GameObject point;
 
 
 
@@ -48,18 +48,22 @@ public class PieceMove : MonoBehaviour
             point.gameObject.GetComponent<WaypointData>().fill = this.fill;
 
 
-        } else if (collision == 2)
+        }
+        else if (collision == 2)
         {
-            point.gameObject.GetComponent<WaypointData>().isOccupied = false;
-            point.gameObject.GetComponent<WaypointData>().shape = "";
-            point.gameObject.GetComponent<WaypointData>().color = "";
-            point.gameObject.GetComponent<WaypointData>().height = "";
-            point.gameObject.GetComponent<WaypointData>().fill = "";
+            if (point != null)
+            {
+                point.gameObject.GetComponent<WaypointData>().isOccupied = false;
+                point.gameObject.GetComponent<WaypointData>().shape = "";
+                point.gameObject.GetComponent<WaypointData>().color = "";
+                point.gameObject.GetComponent<WaypointData>().height = "";
+                point.gameObject.GetComponent<WaypointData>().fill = "";
+            }
         }
 
 
-
         // Win conditions
+        // First row same color
         if (    (waypoints[0].GetComponent<WaypointData>().color == waypoints[1].GetComponent<WaypointData>().color) &&
                 (waypoints[1].GetComponent<WaypointData>().color == waypoints[2].GetComponent<WaypointData>().color) &&
                 (waypoints[2].GetComponent<WaypointData>().color == waypoints[3].GetComponent<WaypointData>().color) &&
@@ -68,12 +72,76 @@ public class PieceMove : MonoBehaviour
         {
             SceneManager.LoadScene(3, LoadSceneMode.Single);
         }
+        //Second row same color
+        if (    (waypoints[4].GetComponent<WaypointData>().color == waypoints[5].GetComponent<WaypointData>().color) &&
+                (waypoints[5].GetComponent<WaypointData>().color == waypoints[6].GetComponent<WaypointData>().color) &&
+                (waypoints[6].GetComponent<WaypointData>().color == waypoints[7].GetComponent<WaypointData>().color) &&
+                (   (waypoints[4].GetComponent<WaypointData>().color == "orange") ||
+                    (waypoints[4].GetComponent<WaypointData>().color == "pink") )    )
+        {
+            SceneManager.LoadScene(3, LoadSceneMode.Single);
+        }
+        //Third row same color
+        if (    (waypoints[8].GetComponent<WaypointData>().color == waypoints[9].GetComponent<WaypointData>().color) &&
+                (waypoints[9].GetComponent<WaypointData>().color == waypoints[10].GetComponent<WaypointData>().color) &&
+                (waypoints[10].GetComponent<WaypointData>().color == waypoints[11].GetComponent<WaypointData>().color) &&
+                (   (waypoints[8].GetComponent<WaypointData>().color == "orange") ||
+                    (waypoints[8].GetComponent<WaypointData>().color == "pink") )    )
+        {
+            SceneManager.LoadScene(3, LoadSceneMode.Single);
+        }
+        //Fourth row same color
+        if (    (waypoints[12].GetComponent<WaypointData>().color == waypoints[13].GetComponent<WaypointData>().color) &&
+                (waypoints[13].GetComponent<WaypointData>().color == waypoints[14].GetComponent<WaypointData>().color) &&
+                (waypoints[14].GetComponent<WaypointData>().color == waypoints[15].GetComponent<WaypointData>().color) &&
+                (   (waypoints[12].GetComponent<WaypointData>().color == "orange") ||
+                    (waypoints[12].GetComponent<WaypointData>().color == "pink") )   )
+        {
+            SceneManager.LoadScene(3, LoadSceneMode.Single);
+        }
+        
+        //First column same color
+        if (    (waypoints[0].GetComponent<WaypointData>().color == waypoints[4].GetComponent<WaypointData>().color) &&
+                (waypoints[4].GetComponent<WaypointData>().color == waypoints[8].GetComponent<WaypointData>().color) &&
+                (waypoints[8].GetComponent<WaypointData>().color == waypoints[12].GetComponent<WaypointData>().color) &&
+                (   (waypoints[0].GetComponent<WaypointData>().color == "orange") ||
+                    (waypoints[0].GetComponent<WaypointData>().color == "pink") )   )
+        {
+            SceneManager.LoadScene(3, LoadSceneMode.Single);
+        }
+        //Second column same color
+        if (    (waypoints[1].GetComponent<WaypointData>().color == waypoints[5].GetComponent<WaypointData>().color) &&
+                (waypoints[5].GetComponent<WaypointData>().color == waypoints[9].GetComponent<WaypointData>().color) &&
+                (waypoints[9].GetComponent<WaypointData>().color == waypoints[13].GetComponent<WaypointData>().color) &&
+                (   (waypoints[1].GetComponent<WaypointData>().color == "orange") ||
+                    (waypoints[1].GetComponent<WaypointData>().color == "pink") )   )
+        {
+            SceneManager.LoadScene(3, LoadSceneMode.Single);
+        }
+        //Third column same color
+        if (    (waypoints[2].GetComponent<WaypointData>().color == waypoints[6].GetComponent<WaypointData>().color) &&
+                (waypoints[6].GetComponent<WaypointData>().color == waypoints[10].GetComponent<WaypointData>().color) &&
+                (waypoints[10].GetComponent<WaypointData>().color == waypoints[14].GetComponent<WaypointData>().color) &&
+                (   (waypoints[2].GetComponent<WaypointData>().color == "orange") ||
+                    (waypoints[2].GetComponent<WaypointData>().color == "pink") )   )
+        {
+            SceneManager.LoadScene(3, LoadSceneMode.Single);
+        }
+        //Fourth column same color
+        if (    (waypoints[3].GetComponent<WaypointData>().color == waypoints[7].GetComponent<WaypointData>().color) &&
+                (waypoints[7].GetComponent<WaypointData>().color == waypoints[11].GetComponent<WaypointData>().color) &&
+                (waypoints[11].GetComponent<WaypointData>().color == waypoints[15].GetComponent<WaypointData>().color) &&
+                (   (waypoints[3].GetComponent<WaypointData>().color == "orange") ||
+                    (waypoints[3].GetComponent<WaypointData>().color == "pink") )   )
+        {
+            SceneManager.LoadScene(3, LoadSceneMode.Single);
+        }
     }
 
 
     private void OnTriggerStay2D(Collider2D other)
     {
-        onBoard = true;
+        if (other.tag == "Point") onBoard = true;
         if (box.isBeingHeld == false) {
             if (other.tag == "Point")
             {

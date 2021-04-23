@@ -13,11 +13,26 @@ public class LoadLevel : MonoBehaviour
     
     public void LoadSceneAdditive(int level)
     {
+        if (level == 2)
+        {
+            GameObject[] pieces;
+            pieces = GameObject.FindGameObjectsWithTag("Pieces");
+            foreach (GameObject element in pieces)
+            {
+                element.GetComponent<Box>().enabled = false;
+            }
+        }
         SceneManager.LoadScene(level, LoadSceneMode.Additive);
     }
 
     public void UnloadScene(int level)
     {
+        GameObject[] pieces;
+        pieces = GameObject.FindGameObjectsWithTag("Pieces");
+        foreach (GameObject element in pieces)
+        {
+            element.GetComponent<Box>().enabled = true;
+        }
         SceneManager.UnloadSceneAsync(level);
 
     }
