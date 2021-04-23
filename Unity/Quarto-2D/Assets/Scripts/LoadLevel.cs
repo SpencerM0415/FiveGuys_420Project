@@ -36,4 +36,9 @@ public class LoadLevel : MonoBehaviour
         SceneManager.UnloadSceneAsync(level);
 
     }
+
+    public void QuitGame()
+    {
+        Application.Quit();
+    }
 }

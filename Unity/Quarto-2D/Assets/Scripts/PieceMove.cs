@@ -13,11 +13,11 @@ public class PieceMove : MonoBehaviour
     public string fill;
     public string shape;
 
-    public bool onBoard = false;
+    private bool onBoard = false;
     private Transform piecePosition;
     private int collision = 0;
-    private string name;
-    public GameObject point;
+    new private string name;
+    private GameObject point;
 
 
 
