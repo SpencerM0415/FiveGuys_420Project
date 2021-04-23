@@ -446,13 +446,17 @@ public class PieceMove : MonoBehaviour
         if (box.isBeingHeld == false) {
             if (other.tag == "Point")
             {
-
                 //Debug.Log("Stay");
-                //other.gameObject.GetComponent<WaypointData>().isOccupied = true;
+                if (other.gameObject.GetComponent<WaypointData>().isOccupied == true)
+                {
+                    transform.position = startPoint.transform.position;
+                    return;
+                }
                 name = other.name;
                 piecePosition = other.transform;
                 collision = 1;
             }
+            
         }
     }
 
