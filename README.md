@@ -22,3 +22,4 @@ Unity - Holds the board prototype and eventually the game itself.
 
 # Dependencies
 Unity 2019.4.16f1
+This project requires the player to download the Executable folder containing the game. After downloading the folder, all that is necessary is to open the executable, and the game will run. This project is built for Windows on x86, so any version of windows will run the game. The game is NOT yet supported for MACOS, Linux, or mobile devices. 
