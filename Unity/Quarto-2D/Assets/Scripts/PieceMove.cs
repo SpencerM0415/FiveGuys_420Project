@@ -13,11 +13,14 @@ public class PieceMove : MonoBehaviour
     public string fill;
     public string shape;
 
-    private bool onBoard = false;
+    public bool onBoard = false;
     private Transform piecePosition;
     private int collision = 0;
     new private string name;
     private GameObject point;
+
+    public GameControl gameControl;
+    public GameObject gameController;
 
 
 
@@ -26,6 +29,8 @@ public class PieceMove : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        gameController = GameObject.Find("GameController");
+        gameControl = gameController.GetComponent<GameControl>();
         transform.position = startPoint.transform.position;
     }
 
@@ -72,6 +77,7 @@ public class PieceMove : MonoBehaviour
                     (waypoints[0].GetComponent<WaypointData>().color == "pink") )    )
         {
             SceneManager.LoadScene(3, LoadSceneMode.Single);
+            gameControl.gameWon = true;
         }
         //Second row same color
         if (    (waypoints[4].GetComponent<WaypointData>().color == waypoints[5].GetComponent<WaypointData>().color) &&
@@ -81,6 +87,7 @@ public class PieceMove : MonoBehaviour
                     (waypoints[4].GetComponent<WaypointData>().color == "pink") )    )
         {
             SceneManager.LoadScene(3, LoadSceneMode.Single);
+            gameControl.gameWon = true;
         }
         //Third row same color
         if (    (waypoints[8].GetComponent<WaypointData>().color == waypoints[9].GetComponent<WaypointData>().color) &&
@@ -90,6 +97,8 @@ public class PieceMove : MonoBehaviour
                     (waypoints[8].GetComponent<WaypointData>().color == "pink") )    )
         {
             SceneManager.LoadScene(3, LoadSceneMode.Single);
+            gameControl.gameWon = true;
+
         }
         //Fourth row same color
         if (    (waypoints[12].GetComponent<WaypointData>().color == waypoints[13].GetComponent<WaypointData>().color) &&
@@ -99,8 +108,10 @@ public class PieceMove : MonoBehaviour
                     (waypoints[12].GetComponent<WaypointData>().color == "pink") )   )
         {
             SceneManager.LoadScene(3, LoadSceneMode.Single);
+            gameControl.gameWon = true;
+
         }
-        
+
         //First column same color
         if (    (waypoints[0].GetComponent<WaypointData>().color == waypoints[4].GetComponent<WaypointData>().color) &&
                 (waypoints[4].GetComponent<WaypointData>().color == waypoints[8].GetComponent<WaypointData>().color) &&
@@ -109,6 +120,8 @@ public class PieceMove : MonoBehaviour
                     (waypoints[0].GetComponent<WaypointData>().color == "pink") )   )
         {
             SceneManager.LoadScene(3, LoadSceneMode.Single);
+            gameControl.gameWon = true;
+
         }
         //Second column same color
         if (    (waypoints[1].GetComponent<WaypointData>().color == waypoints[5].GetComponent<WaypointData>().color) &&
@@ -446,7 +459,6 @@ public class PieceMove : MonoBehaviour
         if (box.isBeingHeld == false) {
             if (other.tag == "Point")
             {
-                //Debug.Log("Stay");
                 if (other.gameObject.GetComponent<WaypointData>().isOccupied == true)
                 {
                     transform.position = startPoint.transform.position;
@@ -455,6 +467,7 @@ public class PieceMove : MonoBehaviour
                 name = other.name;
                 piecePosition = other.transform;
                 collision = 1;
+                gameControl.placed = true;
             }
             
         }
