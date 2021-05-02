@@ -2,8 +2,11 @@ ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
     - Box
+    - GameControl
+    - GameWinner
     - LoadLevel
     - PieceMove
+    - PlayerData
     - WaypointData
     Unity.2D.Animation.Editor.dll:
     - UnityEditor.U2D.Animation.BoneGizmo
@@ -58,23 +61,27 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11554}
     - Class: 114
-      Script: {instanceID: 11608}
+      Script: {instanceID: 11600}
     - Class: 114
-      Script: {instanceID: 11802}
+      Script: {instanceID: 11610}
     - Class: 114
-      Script: {instanceID: 11894}
+      Script: {instanceID: 11804}
     - Class: 114
-      Script: {instanceID: 12126}
+      Script: {instanceID: 11896}
     - Class: 114
-      Script: {instanceID: 12280}
+      Script: {instanceID: 12128}
     - Class: 114
-      Script: {instanceID: 12984}
+      Script: {instanceID: 12282}
     - Class: 114
-      Script: {instanceID: 13746}
+      Script: {instanceID: 12538}
     - Class: 114
-      Script: {instanceID: 14044}
+      Script: {instanceID: 12988}
     - Class: 114
-      Script: {instanceID: 14360}
+      Script: {instanceID: 13750}
+    - Class: 114
+      Script: {instanceID: 14048}
+    - Class: 114
+      Script: {instanceID: 14368}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -115,21 +122,21 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11554}
     - Class: 114
-      Script: {instanceID: 11608}
+      Script: {instanceID: 11610}
     - Class: 114
-      Script: {instanceID: 11894}
+      Script: {instanceID: 11896}
     - Class: 114
-      Script: {instanceID: 12160}
+      Script: {instanceID: 12162}
     - Class: 114
-      Script: {instanceID: 12280}
+      Script: {instanceID: 12282}
     - Class: 114
-      Script: {instanceID: 12984}
+      Script: {instanceID: 12988}
     - Class: 114
-      Script: {instanceID: 13018}
+      Script: {instanceID: 13022}
     - Class: 114
-      Script: {instanceID: 13746}
+      Script: {instanceID: 13750}
     - Class: 114
-      Script: {instanceID: 14360}
+      Script: {instanceID: 14368}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -166,17 +173,17 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11554}
     - Class: 114
-      Script: {instanceID: 11608}
+      Script: {instanceID: 11610}
     - Class: 114
-      Script: {instanceID: 11894}
+      Script: {instanceID: 11896}
     - Class: 114
-      Script: {instanceID: 12280}
+      Script: {instanceID: 12282}
     - Class: 114
-      Script: {instanceID: 12984}
+      Script: {instanceID: 12988}
     - Class: 114
-      Script: {instanceID: 13746}
+      Script: {instanceID: 13750}
     - Class: 114
-      Script: {instanceID: 14360}
+      Script: {instanceID: 14368}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -215,17 +222,19 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11554}
     - Class: 114
-      Script: {instanceID: 11608}
+      Script: {instanceID: 11610}
     - Class: 114
-      Script: {instanceID: 11894}
+      Script: {instanceID: 11896}
     - Class: 114
-      Script: {instanceID: 12280}
+      Script: {instanceID: 12282}
     - Class: 114
-      Script: {instanceID: 12984}
+      Script: {instanceID: 12988}
     - Class: 114
-      Script: {instanceID: 13746}
+      Script: {instanceID: 13750}
     - Class: 114
-      Script: {instanceID: 14360}
+      Script: {instanceID: 14314}
+    - Class: 114
+      Script: {instanceID: 14368}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -317,6 +326,12 @@ ScriptsOnlyBuild:
     className: TouchInputModule
   - hash:
       serializedVersion: 2
+      Hash: 6187ad10c14e6f33ce11124a1f643d91
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: GameControl
+  - hash:
+      serializedVersion: 2
       Hash: 89f9a1b4c64db9559e39f4a2e3bfaadd
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
@@ -365,7 +380,7 @@ ScriptsOnlyBuild:
     className: SignalAsset
   - hash:
       serializedVersion: 2
-      Hash: b1cc3481612d02b00d5e2ecdc9bbe67f
+      Hash: 44889a25f324b8aaf50f2cccc1215a78
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: PieceMove
@@ -443,7 +458,7 @@ ScriptsOnlyBuild:
     className: Mask
   - hash:
       serializedVersion: 2
-      Hash: f29e32a945c6bcd8b982f50b059344c9
+      Hash: 07aafc2799c06419fc5409122694d3f1
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Box
@@ -495,6 +510,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: Selectable
+  - hash:
+      serializedVersion: 2
+      Hash: 00361eb8e7263d52f5b32cf3d6b34a65
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PlayerData
   - hash:
       serializedVersion: 2
       Hash: d4020bafcd3ccbb5601a6e6c8ac78be0
@@ -683,6 +704,12 @@ ScriptsOnlyBuild:
     className: BaseInput
   - hash:
       serializedVersion: 2
+      Hash: ffe5e4946e8873da1464a078ce6a3bf6
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: WinData
+  - hash:
+      serializedVersion: 2
       Hash: caa533b001ae39b864ba8425019e2268
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
@@ -699,6 +726,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TMP_SubMesh
+  - hash:
+      serializedVersion: 2
+      Hash: cdf13d69b1d834cf7a4d102868f39329
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: GameWinner
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -753,12 +786,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: GameManager
   platform: 5
   scenePathNames:
   - Assets/Scenes/MenuScene.unity
