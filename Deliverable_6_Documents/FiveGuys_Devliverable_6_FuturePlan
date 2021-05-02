@@ -1,1 +1,45 @@
+User stories that need to be implemented:
+  - As someone who likes bright and colorful games, I would like to be able to choose the style/color of my pieces and board, so that my board never gets boring.
+  - As someone who doesn’t have friends that play, I would like to have a matchmaking system, so I can play with people around the world.
+  - As a colorblind user, I would like to have different color/indication options, so that I will be able to play with my handicap.
+  - As a visually impaired user, I would like to have a read-aloud option, so that I can be sure I’m picking the right piece.
+  - As someone who mostly plays online, I would like a chat option, so that I can make new friends while playing the game
+  - As a parent, I would like the option to disable chat, so that my child does not get into dangerous situations online.
+  - As a slow player, I would like an option to save my current game, so that I can think about my turn overnight.
+  - As a pro player, I would like an analysis system to measure the effectiveness of my turns, so that I can improve and expand on my abilities.
+  - As a competitive user, I would like a ranked option, so that I can play against opponents of similar skill.
+  - As a variety loving user, I would like multiple gameplay modes, so that I won't get bored of just one.
+  - As a potential new user, I would like a built in tutorial, so that I can learn the game without having to look up a guide.
+  - As someone who wants to support the dev team, I would like an option to buy an ad free version, so I can be rewarded for my support.
+  - As someone who uses a lot of social media, I would like an option to post screenshots of my games, so that I can share interesting moments with all my friends.
+  - As a new player, I would like an option to practice against basic ai, so that I can slowly increase my skill.
+  - As a puzzle lover, I would like an option where the player has a preset board and has to decide the best move, so that I can test my knowledge of the game.
+  - As a multitasking user, I would like a notification system that tells me when a move is made, so that I know when it is my turn to go.
+  - As a speedrunner, I would like a timed option, so that I can ensure my games are always lightning fast.
+  - As a completionist, I would like achievements in the game, so I can try to hunt down every trophy-worthy scenario.
+  - As a new player, I would like to see a hint system, so as I play I learn new tips about how to play.
+  - As a player who loves stats, I would like to see a stat page, so that I can see how many wins and losses I have.
+  - As a parent, I would like to have a chat filter option, so that my child does not need to read curse words online.
+  - As a competitive player, I would like to be able to send my opponents emotes, so they know how badly they are being beaten.
+  - As a competitive player, I would like a live coaching option, so that professionals can help me improve my play.
+ 
+ Requirements that need to be implemented:
+  - The system shall allow for board rotations of 90 degrees, with 4 viewpoints total
+  - The system shall reduce piece opacity when ghost mode is selected
+  - The system shall include a Tutorial button on the main menu screen that will bring the user to the tutorial mode
+  - The system shall include a Shop button that will bring the user to the shop screen
+  - The system shall allow a player to offer their selected piece to their opponent on their turn
+  - The system shall allow for volume to be raised and lowered
+  - The system shall allow for volume to be muted
+  - The system shall allow for cycling between available languages
+  
+  Plan for Future:
+    We plan on trying to roll out updates on a biweekly basis that add these features. We hope to release a patch around thursday every other week.
+The reason for this method of releaseing updates is to help insure we have the time needed to fully implement and perfect these functions. We will
+first start with the more important feature like matchmaking, as well as the gamesmodes. We find that these are more immperative to the application
+functionality then other things such as a shop with skins or different language options. We must first prioritize the applications basic functionality 
+before we implement quality of life updates.
 
+
+  
+  
